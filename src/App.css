@@ -1,0 +1,47 @@
+.office-address .icons{
+    width: 40px;
+    height: 40px;
+    border-right: 4px solid red;
+}
+.contact-section-us .content h6,.contact-section-us .content p{
+    font-size: 12px;
+}
+.payment-section .payment-bank{
+    height: 40px;
+
+}
+/* home */
+.share-link{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 75%;
+    background-color: red;
+}
+.whatsapp-links{
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    overflow: hidden;
+}
+.media-link{
+    /* border-radius: 10px; */
+    /* height: 100px; */
+}
+.whatsapp-links .show-section{
+     transform: translateX(-100px);
+}
+.whatsapp-links:hover .show-section{
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.whatsapp-links:hover .media-hover{
+    transform:rotate(50deg);
+    transition: all 1s ease-in-out;
+}
+
+
+/* footer */
+.footer-section{
+    background-color: #4d4a4a;
+}

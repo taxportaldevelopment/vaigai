@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import { HolidayTour, Honeymoon, OneDayPackages, Pilgrimage } from "./propsSection/OneDayProps";
 import Loading from "./layout/Loading";
 const OneDayPackage = () => {
@@ -45,7 +45,12 @@ const OneDayPackage = () => {
         }
         setActive(event)
     }
-
+      useEffect(()=>{
+          function getRefresh(){
+               window.scrollTo(0, 0);
+           }
+           getRefresh()
+      },[])
   return (
     <div className='container-fluid my-4'>
         <h2 className='text-center'>ONE DAY TOUR PACKAGES</h2>

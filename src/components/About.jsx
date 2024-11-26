@@ -2,7 +2,9 @@ import {useEffect, useState} from 'react'
 import img1 from "../assets/about/a1.jpg";
 import img2 from "../assets/about/a2.jpg";
 import img3 from "../assets/about/a3.jpg";
-
+import about1 from "../assets/about/aboutus.png"
+import about2 from "../assets/about/mahindra_vento.png"
+import about3 from "../assets/about/cars.png"
 //icons
 import { FaFolderOpen } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
@@ -48,6 +50,10 @@ const About = () => {
         setTitle(store.title)
         setContent(store.content)
         setImages(store.imgage)
+        function getRefresh(){
+          window.scrollTo(0, 0);
+      }
+      getRefresh()
     },[])
 
   return (
@@ -77,6 +83,59 @@ const About = () => {
                        </div>
                    </div>
               </div>
+             {/* Best Travels in Dindigul for details */}
+                <div className="container">
+                     <div className="row">
+                          <div className="col-md-12 col-lg-6 p-3">
+                               <h4>Best Travels in Dindigul</h4>
+                               <p className='opacity-50'>When do you want to travel across the world on the road and 
+                                got confused about planning how to go? We are right available for 
+                                you to provide you with the best travel experience at an affordable 
+                                price. It does not stop just with this we also provide many other rentals and services.</p>
+                                <h2 className='py-2'>“Customer’s Safety is our Priority”</h2>
+                                <p>Follow us on Instagram, Facebook and reach us out on WhatsApp 
+                                  for further enquires. We serve to provide you with the best 
+                                  experience on the road, wherever you decide to go we have our 
+                                  service available for you all the time. We assure to provide the 
+                                  best travel service for you in Dindigul. Our Travel agency is 
+                                  looking for customers to experience a memorable travel time with us.</p>
+
+                          </div>
+                          <div className="col-md-12 col-lg-6">
+                               <img src={about1} className='w-100 p-3' alt="" />
+                             </div>
+                     </div>
+                </div>
+                <div className="container">
+                     <div className="row">
+                         <div className="col-md-12 col-lg-6 p-3">
+                             <img src={about2} alt="" />
+                         </div>
+                         <div className="col-md-12 col-lg-6 p-3">
+                              <h5 className='text-danger '>Car Rental in Dindigul</h5>
+                              <p>Vaigai Travels provides all auxiliary travel services as 
+                                required along with our 24 Hours back up service through 
+                                the customer service help desk. Ever since its commencement, 
+                                Vaigai Travels had turned out to be one of the most innovative 
+                                Car Rental Service provider in and around Dindigul. Vaigai Travels, 
+                                one of the leading Car rental company in Dindigul, having well behaved, 
+                                trained and customer friendly drivers to make your journey to a beautiful ride. 
+                                Vaigai Travels is ready to serve you round the clock for your 
+                                comfortable journey to enjoy your holiday tour in Dindigul with Economic, 
+                                Premium & Luxury vehicles.</p>
+                         </div>
+                     </div>
+                </div>
+                 <div className="about-us container">
+                      <h2 className='text-center'>We are proud of our business. <br /> <span className='text-danger'>Rent Car</span> Now!</h2>
+                     
+                      <div className="row d-flex justify-content-center">
+                          <div className="col-md-10">
+                               <img src={about3} className='w-100' alt="" />
+                          </div>
+                      </div>
+                 </div>
+
               {/* about people */}
               <div className="about-people-section container-fluid">
                   <div className="row">

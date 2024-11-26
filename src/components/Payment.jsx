@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import icicbank from "../assets/ICICI_Bank_Logo.svg.png"
 const Payment = () => {
+
+     useEffect(()=>{
+          function getRefresh(){
+               window.scrollTo(0, 0);
+           }
+           getRefresh()
+     },[])
   return (
     <div className='payment-section container'>
          <h5 className='text-center text-danger'>Payment Options</h5>

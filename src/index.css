@@ -176,4 +176,7 @@
     .we-provide-us-home{
          width: 100% !important;
     }
+    .contact-section-us .contact-fixed{
+        position:static;
+    }
 }

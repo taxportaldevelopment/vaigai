@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import { MaduraiTour } from "./propsSection/OneDayProps";
 
 const TourPlaces = () => {
@@ -46,7 +46,12 @@ const TourPlaces = () => {
         setActive(event)
     }
 
-
+        useEffect(()=>{
+          function getRefresh(){
+               window.scrollTo(0, 0);
+           }
+           getRefresh()
+        },[])
   return (
     <div className="tour-places">
          <div className="container-fluid">

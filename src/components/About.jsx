@@ -20,20 +20,20 @@ const About = () => {
        {
         id:1,
         imgage:img1,
-        title:"Vaigai Sai tours and travels are the best tour operators in Madurai. We are providing you the customized services in Madurai and south India. We are specialized in offering all kinds of tour packages from educational tour to pilgrim tour.",
+        title:"Vaigai tours and travels are the best tour operators in Dindigul. We are providing you the customized services in Dindigul and south India. We are specialized in offering all kinds of tour packages from educational tour to pilgrim tour.",
         content:"We have been venturing in this field for the last 20 years, blooming from 2000, and are rendering our heartfelt services to many happy customers. We are so pleased to fulfill our customer’s requirements."
        },
        {
         id:2,
         imgage:img2,
         title:"We assure that we will make the visitors to feel more than the comfort level. Personalized service is our specialty.",
-        content:"We believe in quality service and we guarantee good value for your money and complete satisfaction of its customer is the motto of our company which is being accomplished with the help of most competent pool of human resources.In order to provide complete customer satisfaction, we offer a comprehensive range of travel and tourism related service that includes A surplus surprise is waiting for you in Madurai Sai Tours Travels"
+        content:"We believe in quality service and we guarantee good value for your money and complete satisfaction of its customer is the motto of our company which is being accomplished with the help of most competent pool of human resources.In order to provide complete customer satisfaction, we offer a comprehensive range of travel and tourism related service that includes A surplus surprise is waiting for you in Dindigul Tours Travels"
        },
        {
         id:3,
         imgage:img3,
         title:"Services We are a 360 degree travel solution provider",
-        content:"Our endeavor is to continuously provide the best in class travel services to our customers so that they can look forward to traveling with us again and again. Madurai Sai Tours Travels help you in traveling and guiding you to see this beautiful places."
+        content:"Our endeavor is to continuously provide the best in class travel services to our customers so that they can look forward to traveling with us again and again. Dindigul Tours Travels help you in traveling and guiding you to see this beautiful places."
        },
   ]  
 
@@ -58,7 +58,7 @@ const About = () => {
 
   return (
     <div>
-        {/* vaigai SAI TOURS TRAVELS */}
+        {/* vaigai TOURS TRAVELS */}
         <div className="vaigai-about-section my-4 p-2 ">
               <h2 className='text-center py-4 opacity-75 text-danger'>VAIGAI TOURS TRAVELS</h2>
 
@@ -84,7 +84,7 @@ const About = () => {
                    </div>
               </div>
              {/* Best Travels in Dindigul for details */}
-                <div className="container">
+                <div className="container my-5" data-aos="flip-up">
                      <div className="row">
                           <div className="col-md-12 col-lg-6 p-3">
                                <h4>Best Travels in Dindigul</h4>
@@ -106,7 +106,7 @@ const About = () => {
                              </div>
                      </div>
                 </div>
-                <div className="container">
+                <div data-aos="flip-down" className="container">
                      <div className="row">
                          <div className="col-md-12 col-lg-6 p-3">
                              <img src={about2} alt="" />
@@ -126,7 +126,7 @@ const About = () => {
                          </div>
                      </div>
                 </div>
-                 <div className="about-us container">
+                 <div data-aos="fade-down-left" className="about-us container">
                       <h2 className='text-center'>We are proud of our business. <br /> <span className='text-danger'>Rent Car</span> Now!</h2>
                      
                       <div className="row d-flex justify-content-center">
@@ -137,7 +137,7 @@ const About = () => {
                  </div>
 
               {/* about people */}
-              <div className="about-people-section container-fluid">
+              <div data-aos="fade-down-left" className="about-people-section container-fluid">
                   <div className="row">
                   <div className="col-md-12 col-lg-3 p-1 about-people-show py-2 mt-3 ">
                       <div className='d-flex parent p-2'>

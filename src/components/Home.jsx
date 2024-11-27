@@ -92,13 +92,13 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      {/* Greeting to Sai Tours and Travels */}
+      {/* Greeting to vaigai Tours and Travels */}
       <div className="container my-4 animation-show">
         <h2 className="text-center py-3 text-danger">
-          Greeting to Vaigai Tours and Travels
+           Vaigai Tours and Travels
         </h2>
         <p>
-          Sai tours and travels is the best tours and travels in vaigai and
+          vaigai tours and travels is the best tours and travels in vaigai and
           renowned travel agency in vaigai. We cherish our customers with
           quality service and you forever adore our service. We have been in
           this field for long years. So, we are serving the best tourism and
@@ -108,7 +108,7 @@ const Home = () => {
           with premium packages.
         </p>
         <p>
-          Sai tours and travels in vaigai have their own professional drivers,
+          vaigai tours and travels in vaigai have their own professional drivers,
           proficient guide, and outstanding executives. We also offer cab
           services in vaigai. We stand out among other agencies in a way that we
           provide quality customer service and make you feel like your home. Our
@@ -131,7 +131,7 @@ const Home = () => {
          {/* Why Choose Us */}
          <div className="why-choose-us p-3 my-3 animation-show">
                <h2 className="text-center text-danger">Why Choose Us</h2>
-               <p className="text-center text-danger px-3">At Lakshmi Travels, we understand that you have choices when it comes to your travel needs. <br />
+               <p className="text-center text-danger px-3">At vaigai Travels, we understand that you have choices when it comes to your travel needs. <br />
                 Here's why choosing us is the best decision for a seamless and enjoyable journey.</p>
 
               <div className="row">
@@ -148,7 +148,7 @@ const Home = () => {
                               </div>
                               <div className="col-md-12 col-lg-4 why-choose-at-us border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Best Price</h6>
-                                    <p>Unlock unbeatable value with Lakshmi Travels – your gateway 
+                                    <p>Unlock unbeatable value with vaigai Travels – your gateway 
                                       to the best prices in travel. Our commitment to affordability 
                                       ensures that you get exceptional service without compromising your budget.</p>
                               </div>
@@ -157,13 +157,13 @@ const Home = () => {
                          <div className="row d-flex justify-content-evenly">
                               <div className="col-md-12 why-choose-at-us col-lg-4 border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Trust &Safety</h6>
-                                    <p>Unlock unbeatable value with Lakshmi Travels – your gateway to the best prices in travel.
+                                    <p>Unlock unbeatable value with vaigai Travels – your gateway to the best prices in travel.
                                        Our commitment to affordability ensures that you get exceptional service without 
                                        compromising your budget.</p>
                               </div>
                               <div className="col-md-12 col-lg-4 why-choose-at-us border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Amazing Tour</h6>
-                                    <p>Embark on an unforgettable journey with Lakshmi Travels, 
+                                    <p>Embark on an unforgettable journey with vaigai Travels, 
                                       where every tour is crafted to be truly amazing. Discover 
                                       extraordinary destinations and create lasting memories with 
                                       our exceptional travel experiences.</p>
@@ -173,13 +173,13 @@ const Home = () => {
                          <div className="row d-flex justify-content-evenly">
                               <div className="col-md-12 why-choose-at-us col-lg-4 border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Ticket Booking</h6>
-                                    <p>Simplify your travel plans with Lakshmi Travels. Our hassle-free 
+                                    <p>Simplify your travel plans with vaigai Travels. Our hassle-free 
                                       ticket booking services ensure a seamless and efficient process, 
                                       providing you with the convenience you deserve for your journey ahead.</p>
                               </div>
                               <div className="col-md-12 col-lg-4 why-choose-at-us border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Hotel Booking</h6>
-                                    <p>Experience comfort from check-in to check-out with Lakshmi Travels. 
+                                    <p>Experience comfort from check-in to check-out with vaigai Travels. 
                                       Our hotel booking services offer a seamless and tailored approach, 
                                       ensuring your stay is as enjoyable as the destination itself.</p>
                               </div>
@@ -189,7 +189,7 @@ const Home = () => {
          </div>
 
       {/* tour packages */}
-      <div className="container-fluid tour-packages py-5 tour-package">
+      <div data-aos="fade-up" className="container-fluid tour-packages py-5 tour-package">
         <h2 className="text-center">OUR TOUR PACKAGES</h2>
         <div className="row">
           <div className="col-md-12 col-lg-3 p-1 mt-4">
@@ -235,7 +235,7 @@ const Home = () => {
         </div>
       </div>
       {/* gallery */}
-      <div className="container-fluid gallery-section p-3">
+      <div data-aos="fade-down-left" className="container-fluid gallery-section p-3">
         <h3 className="text-center my-3 text-white">GALLERY</h3>
         <div className="container my-4 py-4">
           <Carousel
@@ -298,8 +298,8 @@ const Home = () => {
         </div>
       </div>
       {/* OUR CUSTOMERS FAVOURITE DESTINATIONS */}
-      <div className="our-customer my-3 py-4">
-        <h3 className="text-center my-3">OUR CUSTOMERS FAVOURITE DESTINATIONS</h3>
+      <div data-aos="flip-left" className="our-customer my-3 py-4 ">
+        <h3 className="text-center my-3 text-white">OUR CUSTOMERS FAVOURITE DESTINATIONS</h3>
         <div className="container my-4 py-4">
           <Carousel
             responsive={responsive}
@@ -414,7 +414,7 @@ const Home = () => {
         </div>
       </div>
       {/* Our Services */}
-      <div className="container p-5">
+      <div data-aos="flip-right" className="container p-5">
         <h2 className="text-center py-3 text-danger">Our Services</h2>
         <div className="row our-service">
           <div className="col-md-12 col-lg-3">

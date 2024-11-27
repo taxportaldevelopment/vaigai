@@ -86,9 +86,7 @@ input[type=number] {
 }
 /* our-customer */
 .our-customer{
-    color: #fff;
-    background:linear-gradient(to right,#00000093,#000000b6),url(./assets/tajwithbus.png) no-repeat bottom;
-    background-size: cover;
+    background-color:var( --danger--);   
 }
 .our-customer .customer{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -100,6 +98,9 @@ input[type=number] {
 .our-customer .customer:hover img{
      transform: scale(1.1);
      transition: all 1s ease-in-out;
+}
+.our-customer .customer{
+    background-color: white;
 }
 .our-customer .customer:hover{
      border-top: 2px solid #fff;
@@ -113,15 +114,48 @@ input[type=number] {
 /* .why-choose-us .why-choose-at-us{
     position: relative;
 } */
-.why-choose-at-us{
+/* .why-choose-at-us{
     background-color: #0a090985 !important;
 
-}
+} */
+ .why-choose-us{
+    background:url(./assets/bg-shape-04.png) ;
+ }
 .why-choose-us .why-choose-at-us:hover {
     transform: translateY(-20px) rotateY(360deg);
     transition: all 1s ease-in-out;
     background:url(./assets/bg-shape-04.png) ;
-    color:white;
+}
+
+/* book-your-cab-banner */
+.book-your-cab{
+    background:url(./assets/bg-shape-04.png) ;
+}
+.book-your-cab-banner{
+    height: 100vh;
+    background:linear-gradient(to right,#00000093,#000000b6), url(./assets/book-you-cab.png) no-repeat center;
+    background-size: cover;
+}
+.book-your-cab .bank-head-line{
+    position: relative;
+}
+.book-your-cab .bank-head-line::before{
+    content: "";
+    width: 40px;
+    padding: 2px;
+    position: absolute;
+    top: 27px;
+    left:17px;
+    background-color: red;
+}
+.book-your-cab .bank-head-line::after{
+    content: "";
+    width: 40px;
+    padding: 2px;
+    position: absolute;
+    top: 27px;
+    right:17px;
+    background-color: red;
 }
 @media screen and (max-width:750px){
 

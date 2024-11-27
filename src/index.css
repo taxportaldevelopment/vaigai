@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 /* border own style */
 .border-bottom-own{
     border-bottom: 1px solid red;

@@ -24,7 +24,7 @@ const Contact = () => {
      
          <div className="contact-banner d-flex justify-content-center align-items-center">
               <div className="banner-content">
-                    <h3 className="text-white">Contatc</h3>
+                    <h3 className="text-white">Contact</h3>
                     <div className="links text-white">
                          <Link className="text-white" to={"/vaigai"}>Home</Link> / 
                           <Link className="text-white" to={"/contact"}>Contact</Link>
@@ -32,7 +32,7 @@ const Contact = () => {
               </div>
          </div>
        
-       <div className="contact-us my-5 py-4">
+       <div data-aos="zoom-in" className="contact-us my-5 py-4">
             <h2 className="text-center"><span className="px-4 py-2 bg-danger rounded text-white">Contact Us</span></h2>
             <h1 className="text-center">
                   <span>
@@ -49,7 +49,7 @@ const Contact = () => {
                          </div>
                           <div className="content p-3">
                            <h4 className="text-center">Office Location</h4>
-                           <p className="text-center">Mylapore, Dindigul</p>
+                           <p className="text-center">Vaigai Tours and Travels</p>
                           </div>
                         </div>
                    </div>
@@ -60,7 +60,7 @@ const Contact = () => {
                          </div>
                           <div className="content p-3">
                            <h4 className="text-center">Email Address</h4>
-                           <p className="text-center">prompt_travels@yahoo.co.in</p>
+                           <p className="text-center"><a href="mailto:sathamtaj1111@gmail.com">sathamtaj1111@gmail.com</a></p>
                           </div>
                         </div>
                    </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                          </div>
                           <div className="content p-3">
                            <h4 className="text-center">Hotline</h4>
-                           <p className="text-center">+91 98418 02288</p>     
+                           <p className="text-center">+91 8489946488</p>     
                           </div>
                         </div>
                    </div>
@@ -87,13 +87,13 @@ const Contact = () => {
                               chillwave put a bird on church-key ramps heirloom. Set perspiciatis unde 
                               omnis estenatus voluptatem aperiae.</p>
 
-                              <div className="social-media">
+                              {/* <div className="social-media">
                                    <CiFacebook className="h3 p-1 bg-danger text-white ms-2" />
                                    <CiTwitter className="h3 p-1 bg-danger text-white ms-2" />
                                    <FaGooglePlusG className="h3 p-1 bg-danger text-white ms-2" />
                                    <FaPinterestP className="h3 p-1 bg-danger text-white ms-2" />
                                    <TfiYoutube className="h3 p-1 bg-danger text-white ms-2" />
-                              </div>
+                              </div> */}
                         </div>
                         <div className="col-md-12 col-lg-6 p-3 border rounded">
                               <div className="row">
@@ -140,7 +140,7 @@ const Contact = () => {
             </div> 
             {/* google map */}
             <div className="container-fluid google-map">
-                  <div className="contact-fixed rounded container d-flex justify-content-between align-items-center flex-wrap p-3">
+                  {/* <div className="contact-fixed rounded container d-flex justify-content-between align-items-center flex-wrap p-3">
                    <div className="left-side d-flex flex-wrap">
                   <div className="book-with">
                          <img src={img} height={80} alt="" />
@@ -152,7 +152,7 @@ const Contact = () => {
                   </div>
                    <button className="btn btn-primary">Book Now</button>
 
-                   </div>
+                   </div> */}
                   <div className="map-map p-4">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.2903348150335!2d77.96320087140352!3d10.354002991674527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00ab5cd3caf8f9%3A0xa92ac7765b4d32fb!2sVAIGAI%20TOURS%20AND%20TRAVELS!5e1!3m2!1sen!2sin!4v1732604705252!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowfullscreen="true" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                   </div> 

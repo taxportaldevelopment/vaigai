@@ -13,6 +13,8 @@ import Payment from "./components/Payment"
 import { IoPhonePortrait } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
+import BookYourCab from "./components/BookYourCab"
+import { FcCalculator } from "react-icons/fc";
 function App() {
 
 
@@ -26,6 +28,7 @@ function App() {
                <Route path="/tour-places" element={<TourPlaces/>} />
                <Route path="/contact" element={<Contact/>} />
                <Route path="/payment" element={<Payment/>} />
+               <Route path="/book-you-cab" element={<BookYourCab/>} />
           </Routes>
           <Footer/>
 
@@ -33,9 +36,12 @@ function App() {
                 <div className="media-link p-2">
                       <div className="show-section">
                          <div>
-                      <div className="share-link d-flex justify-content-center align-items-center text-white">
+                         <div className="share-link d-flex justify-content-center align-items-center text-white">
+                         <FcCalculator className="h4" />
+                          </div>
+                          <div className="share-link d-flex justify-content-center align-items-center text-white">
                          <IoPhonePortrait className="h4" />
-                      </div>
+                          </div>
                          </div>
                          <div>
                       <div className="share-link d-flex justify-content-center align-items-center text-white">

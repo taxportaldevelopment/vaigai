@@ -19,13 +19,13 @@ const Footer = () => {
                         agencies in Dindigul, South India for the past few years. 
                         Tour Operators in Dindigul arranged total tour package those 
                         holiday, pilgrimage, educational tour packages etc.</p>
-        <div className="right-site py-4">
+        {/* <div className="right-site py-4">
           <CiFacebook className="px-1 h4 bg-primary text-white ms-1 rounded" /> 
           <CiTwitter className="px-1 h4 bg-primary text-white ms-1 rounded" />
           <FaGooglePlusG className="px-1 h4 bg-primary text-white ms-1 rounded" />
           <FaPinterestP className="px-1 h4 bg-primary text-white ms-1 rounded" />
           <TfiYoutube className="px-1 h4 bg-primary text-white ms-1 rounded" />
-        </div>    
+        </div>     */}
            <button className='btn btn-danger'>VISIT OUR TARIFF</button>
                </div>
                <div className="col-md-12 col-lg-3">
@@ -54,17 +54,17 @@ const Footer = () => {
                             customers everywhere.</li>
                         <li className='py-2'>
                            <FaTelegramPlane />
-                           Madurai Sai Tours & Travels
+                           Vaigai Tours and Travels
                         </li>
                         <li className='py-2'>
-                        No.16, JP Complex, Puttuthoppu Main Road, Arappalayam Cross Road, Madurai, Tamilnadu – 625016.
+                            Vaigai Relax, madurai road, Begambur, dindigul 624002
                         </li>
                         <li>
                           <FaPhone />
-                          +91 89256 63386 <br /> +91 89256 64487
+                          +91 8489946488 <br /> +91 94882 44111
                         </li>
                         <li className='py-2'>
-                          <MdOutlineMail /> info@maduraisaitourstravels.com <br />
+                          <MdOutlineMail /> sathamtaj1111@gmail.com <br />
                           maduraisaitours@gmail.com
                         </li>
                         <li className='py-2'>

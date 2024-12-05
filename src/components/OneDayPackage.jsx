@@ -84,18 +84,6 @@ const OneDayPackage = () => {
              </div>
         </div>
         
-               <div className="mobile-hover">
-              <div className="mobile-view">
-                    <div className="scroll">
-                         <p className="mobile-1">ONE DAY TOUR PACKAGES</p>
-                         <p className="mobile-2">ONE DAY TOUR PACKAGES</p>
-                         <p className="mobile-3">ONE DAY TOUR PACKAGES</p>
-                         <p className="mobile-4">ONE DAY TOUR PACKAGES</p>
-                    </div>
-    
-              </div>
-
-               </div>
     </div>
   )
 }

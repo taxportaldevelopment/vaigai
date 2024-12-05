@@ -28,12 +28,12 @@ function App() {
                <Route path="/vaigai" element={<Home/>} />
                <Route path="/about" element={<About/>} />
                <Route path="/one-day-package" element={<OneDayPackage/>} />
-               <Route path="/tour-places" element={<TourPlaces/>} />
+               {/* <Route path="/tour-places" element={<TourPlaces/>} /> */}
                <Route path="/contact" element={<Contact/>} />
                <Route path="/payment" element={<Payment/>} />
                <Route path="/book-you-cab" element={<BookYourCab/>} />
                <Route path="/register" element={<Register/>} />
-               <Route path="/releax" element={<Releax/>} />
+               {/* <Route path="/releax" element={<Releax/>} /> */}
                <Route path="/package-table"  element={<PackageTable/>}/>
           </Routes>
           <Footer/>
@@ -42,16 +42,16 @@ function App() {
                 <div className="media-link p-2">
                       <div className="show-section">
                          <div>
-                         <div className="share-link d-flex justify-content-center align-items-center text-white">
+                         {/* <div className="share-link d-flex justify-content-center align-items-center text-white">
                          <FcCalculator className="h4" />
-                          </div>
+                          </div> */}
                           <div className="share-link d-flex justify-content-center align-items-center text-white">
-                         <IoPhonePortrait className="h4" />
+                             <a href="tel:+91 94882 44111"><IoPhonePortrait className="h4 text-white" /></a>
                           </div>
                          </div>
                          <div>
                       <div className="share-link d-flex justify-content-center align-items-center text-white">
-                          <FaWhatsapp className="h4 text-success" />
+                         <a href="https://api.whatsapp.com/send?phone=94882 44111"><FaWhatsapp className="h4 text-success text-white" /></a>
                       </div>
                          </div>
                       </div>

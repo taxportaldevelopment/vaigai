@@ -167,19 +167,15 @@ const BookYourCab = () => {
                          <option value="TAVERA">TAVERA  8+1 SEAT</option>
                          <option value="INNOVA">INNOVA 7+1 SEAT</option>
                          <option value="ERTIGA">ERTIGA 7+1 seat</option>
-                         <option value="TEMPO">ERTIGA 14+1 SEAT</option>
+                         <option value="TEMPO">TEMPO  14+1 SEAT</option>
                          <option value="COACH">COACH 21+1 SEAT</option>
                      </select>
                 </div>
                 <div className="form-group my-3">
-                     <select name="Number Of Person" required className="form-control" id="">
-                         <option value="">--Number Of Person*</option>
-                         <option value="1">1</option>
-                         <option value="2">2</option>
-                         <option value="3">3</option>
-                         <option value="4">4</option>
-                         <option value="5">5</option>
-                     </select>
+                      <input type="number" 
+                      placeholder="Number Of Person..."
+                        name="Number Of Person" required className="form-control"
+                      />
                 </div>
                 <div className="form-group my-3">
                      <input type="text"
@@ -241,14 +237,6 @@ const BookYourCab = () => {
              <h5 className="text-center"> OUR COMPANY DETAILS</h5>
               <img src={brandPhoto} className="p-3 w-100 shadow rounded" alt="" />
                  
-              </div>
-              <div className="bank-details border shadow my-3 p-2 rounded">
-                   <h5 className="text-center py-2 bank-head-line">Bank Detail </h5>
-                   <p className="h6 opacity-75">Account Name : vaigai travel</p>
-                   <p className="h6 opacity-75">Account NO : *******786</p>
-                   <p className="h6 opacity-75">Bank Name  : ICIC BANK</p>
-                   <p className="h6 opacity-75">Branch : Dindigul</p>
-                   <p className="h6 opacity-75">IFSC Code : CNRB000***</p>
               </div>
           </div>
         </div>

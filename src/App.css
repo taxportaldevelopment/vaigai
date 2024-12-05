@@ -141,8 +141,8 @@ input[type=number] {
     background:url(./assets/bg-shape-04.png) ;
 }
 .book-your-cab-banner{
-    height: 100vh;
-    background:linear-gradient(to right,#00000093,#000000b6), url(./assets/book-you-cab.png) no-repeat center;
+    height: 70vh;
+    background:linear-gradient(to right,#00000071,#00000091), url(./assets/book-you-cab.png) no-repeat center;
     background-size: cover;
 }
 .book-your-cab .bank-head-line{
@@ -236,6 +236,18 @@ input[type=number] {
     background:linear-gradient(to left,red,#000);
     color: black;
 } */
+.rotate {
+    animation: rotation 10s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 @media screen and (max-width:750px){
 
     .contact-section-us .contact-fixed{

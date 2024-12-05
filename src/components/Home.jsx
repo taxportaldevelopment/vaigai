@@ -1,25 +1,17 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {Link} from "react-router-dom";
-// gallert
-import img1 from "../assets/gallery/athirapalli-falls.png";
-import img2 from "../assets/gallery/hogenakal falls.png";
-import img3 from "../assets/gallery/kodaikanal falls.png";
-import img4 from "../assets/gallery/kutralam falls.png";
-import img5 from "../assets/gallery/munnar falls.png";
-import img6 from "../assets/gallery/Ooty-pykara-falls.png";
-import img7 from "../assets/gallery/Thirparapu-falls.png";
-import img8 from "../assets/gallery/thirumoorthy-falls.png";
+// banner slider
+import brandBanner from "../assets/brand-banner.jpeg";
+
 import imgUs from "../assets/images/corporate.jpg";
 // our customer
-import customer1 from "../assets/our-customer/BHUTAN.jpg";
-import customer2 from "../assets/our-customer/DO-DHAM-YATRA.jpg";
-import customer3 from "../assets/our-customer/himalaya-1.jpg";
-import customer4 from "../assets/our-customer/KASHMIR.jpg";
-import customer5 from "../assets/our-customer/LADAKH.jpg";
-import customer6 from "../assets/our-customer/NEPAL.jpg";
-import customer7 from "../assets/our-customer/THE-BEST-OF-NORTH-INDIA.jpg";
-import customer8 from "../assets/our-customer/THE-BEST-OF-SOUTH-INDIA.jpg";
+import customer1 from "../assets/our-customer/madurai.jpg";
+import customer2 from "../assets/our-customer/Kodaikanal.jpg";
+import customer3 from "../assets/our-customer/theni.jpg";
+import customer4 from "../assets/our-customer/Kolukkumalai-Munnar.jpg";
+import customer5 from "../assets/our-customer/palani-tours.png";
+import customer6 from "../assets/our-customer/sirumalai-tourist.jpg";
 
 // sliders
 import slider1 from "../assets/carousel/silder-1.png";
@@ -55,7 +47,6 @@ const Home = () => {
   getRefresh()
    },[])
 
-   
 
   return (
     <div>
@@ -317,7 +308,7 @@ const Home = () => {
       </div> */}
       {/* OUR CUSTOMERS FAVOURITE DESTINATIONS */}
       <div data-aos="flip-left" className="our-customer my-3 py-4 ">
-        <h3 className="text-center my-3 text-white">OUR CUSTOMERS FAVOURITE DESTINATIONS</h3>
+        <h3 className="text-center my-3 text-danger text-uppercase">dindigul nearby places</h3>
         <div className="container my-4 py-4">
           <Carousel
             responsive={responsive}
@@ -331,27 +322,15 @@ const Home = () => {
             containerClass="carousel-container"
            
           >
-            <div className="d-flex justify-content-center">
-            <div className="customer w-75  p-2">
-                <div className="images  d-flex justify-content-center">
-                 <img src={customer8} className="w-75 rounded" alt="Image 1" />
-                </div>
-              <h5 className="mt-2 text-uppercase ">
-                   THE BEST OF SOUTH INDIA
-              </h5>
-              <p className="py-3">THE BEST OF SOUTH INDIA</p>
-              <button className="btn btn-danger mt-3">View More</button>
-              </div>
-            </div>
             <div className=" d-flex justify-content-center ">
               <div className="customer w-75  p-2">
                 <div className="images  d-flex justify-content-center">
                  <img src={customer1} className="w-75 rounded" alt="Image 1" />
                 </div>
               <h5 className="mt-2 text-uppercase ">
-                 BHUTAN
+                 MADURAI
               </h5>
-              <p className="py-3  ">Arrive Paro Airport on arrival meet by our representative with garlanding welcome...</p>
+              <p className="py-3">தென்னிந்திய மாநிலமான தமிழ்நாட்டின் தேனி மாவட்டம், ஆண்டிப்பட்டி அருகே வைகை ஆற்றின் மீது கட்டப்பட்ட அற்புதமான மனிதனால் உருவாக்கப்பட்ட வைகை அணை.</p>
               <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
@@ -361,9 +340,9 @@ const Home = () => {
                  <img src={customer2} className="w-75 rounded" alt="Image 1" />
                 </div>
               <h5 className="mt-2 text-uppercase ">
-                  DO DHAM YATRA 
+                 Kodaikanal
               </h5>
-              <p className="py-3">Arrival Delhi Airport / Railway Station, Meet & Assist by our representative. Later drive...</p>
+              <p className="py-3">கொடைக்கானல் ஏரி குறுகிய காலத்தில் கொடை ஏரி என்று அழைக்கப்படுகிறது. 1860-களில் மதுரை ஆட்சியர் ஹென்றி லெவிங் கொடைக்கானல் ஏரியை மேம்படுத்தும் பணியைத் தொடங்கினார்.  </p>
               <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
@@ -373,9 +352,10 @@ const Home = () => {
                  <img src={customer3} className="w-75 rounded" alt="Image 1" />
                 </div>
               <h5 className="mt-2 text-uppercase ">
-                 THE BEST OF EASTERN HIMALAYAS
+                 theni
               </h5>
-              <p className="py-3">On arrival at NJP Railway Station / (IXB) Bagdogra Airport you will meet by our local...</p>
+              <p className="py-3">தேனி மாவட்டத்தில் இயற்கை மாறாமல் இருக்கும் சுற்றுலா தலங்கள். 
+                நீங்கள் தேனிக்கு சென்றால் இந்த தலங்களுக்கு ஒரு முறையாவது இந்த இடங்களுக்கு சென்று வாருங்கள்.</p>
               <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
@@ -385,9 +365,11 @@ const Home = () => {
                  <img src={customer4} className="w-75 rounded" alt="Image 1" />
                 </div>
               <h5 className="mt-2 text-uppercase ">
-                  KASHMIR
+              Kolukkumalai Munnar
               </h5>
-              <p className="py-3">On arrival at Srinagar, you will be met by our representative and transfer you to Houseboat...</p>
+              <p className="py-3">தென்னிந்தியாவின் மிகப்பெரிய தேயிலை விளையும் பகுதியான மூணாறு, 
+                கற்பனை செய்யக்கூடிய மிக அற்புதமான அமைப்புகளுக்கு மத்தியில் கடவுளின் சொந்த 
+                நாட்டில் அமைந்துள்ளது.</p>
               <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
@@ -397,9 +379,11 @@ const Home = () => {
                  <img src={customer5} className="w-75 rounded" alt="Image 1" />
                 </div>
               <h5 className="mt-2 text-uppercase ">
-                  LADAKH
+                  palani
               </h5>
-              <p className="py-3">On arrival at Leh airport, you will be met by our representative and transfer you to Hotel...</p>
+              <p className="py-3">பழனி தமிழ்நாட்டின் திண்டுக்கல் மாவட்டத்தில் உள்ள ஒரு சிறிய நகரம். 
+                பழனியில் அருவி, மலை, 
+                கோயில், ஓய்வு விடுதி உள்ளிட்ட பல்வேறு சுற்றுலா தலங்கள் உள்ளன</p>
               <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
@@ -409,27 +393,41 @@ const Home = () => {
                  <img src={customer6} className="w-75 rounded" alt="Image 1" />
                 </div>
               <h5 className="mt-2 text-uppercase ">
-                 NEPAL
+                 sirumali
               </h5>
-              <p className="py-3">Nepal has seen many rulers and ruling dynasties. The earliest rulers were the Kirantis...</p>
-              <button className="btn btn-danger mt-3">View More</button>
-              </div>
-            </div>
-            <div className="d-flex justify-content-center">
-            <div className="customer w-75  p-2">
-                <div className="images  d-flex justify-content-center">
-                 <img src={customer7} className="w-75 rounded" alt="Image 1" />
-                </div>
-              <h5 className="mt-2 text-uppercase ">
-                  THE BEST OF NORTH INDIA
-              </h5>
-              <p className="py-3">Meet by our  representative on arrival, welcome with garlanding and transfer to the hotel...</p>
+              <p className="py-3">சிறுமலை திண்டுக்கல்லில் இருந்து 25 கிமீ (16 மைல்) 
+                மற்றும் மதுரையில் இருந்து 40 கிமீ (25 மைல்) தொலைவில் 60,000 ஏக்கர் (200 கிமீ)
+                 பரப்பளவில் அமைந்துள்ளது.</p>
               <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
 
+
           </Carousel>
         </div>
+
+      {/* bber slider */}
+      <div className="container mt-4">
+        <marquee scrollamount="20" direction="">
+            <div className="d-flex justify-content-evenly">
+
+             <div  className="me-4 shadow">
+                 <img src={brandBanner} height={360} alt="" />
+             </div>
+             <div className="me-4 shadow">
+                 <img src={brandBanner} height={360} alt="" />
+             </div>
+             <div className="me-4 shadow">
+                 <img src={brandBanner} height={360} alt="" />
+             </div>
+             <div className="me-4 shadow">
+                 <img src={brandBanner} height={360} alt="" />
+             </div>
+            </div>
+        </marquee>
+
+      </div>
+
       </div>
       {/* Our Services */}
       <div data-aos="flip-right" className="container p-5">

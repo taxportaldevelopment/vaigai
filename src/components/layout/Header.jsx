@@ -58,10 +58,10 @@ const Header = () => {
         <Link to={"/one-day-package"} onClick={()=>setActive("One Day Package")} style={{color:(active == "One Day Package"?"red":"black")}}>One Day Package</Link>
       </NavItem>
       <NavItem>
-        <Link to={"/tour-places"} onClick={()=>setActive("Tour Places")} style={{color:(active == "Tour Places"?"red":"black")}}>Tour Places</Link>
+        {/* <Link to={"/tour-places"} onClick={()=>setActive("Tour Places")} style={{color:(active == "Tour Places"?"red":"black")}}>Tour Places</Link> */}
       </NavItem>
       <NavItem>
-      <Link to={"/releax"} onClick={()=>setActive("releax")} style={{color:(active == "Tour Places"?"red":"black")}}>Releax</Link>
+      {/* <Link to={"/releax"} onClick={()=>setActive("releax")} style={{color:(active == "Tour Places"?"red":"black")}}>Releax</Link> */}
       </NavItem>
     </DropDown>
     <NavItem>

@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react'
 import DatePicker from "react-multi-date-picker";
 import { useForm } from 'react-hook-form';
-import { HiOutlineDownload } from "react-icons/hi";
+// import { HiOutlineDownload } from "react-icons/hi";
 import axios from "axios";
-import jsPDF from 'jspdf'
-import 'jspdf-autotable'
+// import jsPDF from 'jspdf'
+// import 'jspdf-autotable'
 const Register = () => {
      
      const [statusActive,setStatusActive] = useState(true)
      const [getData,setGetData] = useState([]);
-     const [travelFilter,setTravelFilter] = useState();
+     const [showMessage,setShowMessage] = useState("");
+    //  const [travelFilter,setTravelFilter] = useState();
       
     useEffect(()=>{
 
@@ -71,31 +72,33 @@ const Register = () => {
                 tollamount:userData.tollamount,
                 profitamt:parseInt(userData.totalkm) * parseInt(userData.perkm) - parseInt(userData.diesel)-parseInt(userData.driver)
            }
-           
-            const {data} = await axios.post(`http://localhost:8000/api/v1/userdetails`,userdata);
-            
-             switch(true){
-                 case data.success == true:
-                  setStatusActive(true)
-                      setUserData({
-                        days:"",
-                        partyname:"",
-                        drivername:"",
-                        type:"",
-                        designation:"",
-                        reason:"",
-                        totalkm:"",
-                        perkm:"",
-                        totalamount:"",
-                        diesel:"",
-                        driver:"",
-                        tollamount:"",
-                        profitamt:""
-                      })
-             } 
-             
-            
-           
+
+             try{
+                setShowMessage("Sending...")
+               const {data} = await axios.post(`http://localhost:8000/api/v1/userdetails`,userdata);
+                 if(data.success){
+                     setShowMessage("Pending...")
+                 }
+             }catch(err){
+                 setShowMessage(err.message)
+             }finally{
+                 setShowMessage("successfilly submit")
+                           setUserData({
+                            days:"",
+                            partyname:"",
+                            drivername:"",
+                            type:"",
+                            designation:"",
+                            reason:"",
+                            totalkm:"",
+                            perkm:"",
+                            totalamount:"",
+                            diesel:"",
+                            driver:"",
+                            tollamount:"",
+                            profitamt:""
+                          })
+             }  
       }
 
       const dateChange = (e)=>{
@@ -103,64 +106,67 @@ const Register = () => {
            setValue(e.toDate().toLocaleDateString("en-IN"));
       }
 // filter submit
-const Filtersubmit = async()=>{
-         let filterDate = {
-              date:travelFilter
-         }
-    const {data} = await axios.post(`http://localhost:8000/api/v1/getsinledata`,filterDate);
-    setGetData(data?.user)
+// const Filtersubmit = async()=>{
+//          let filterDate = {
+//               date:travelFilter
+//          }
+//     const {data} = await axios.post(`http://localhost:8000/api/v1/getsinledata`,filterDate);
+//     setGetData(data?.user)
      
-}
+// }
       //  viewAll
-      const viewAll = ()=>{
-        setStatusActive(true)
-      }
+    //   const viewAll = ()=>{
+    //     setStatusActive(true)
+    //   }
 
 
-     const handleGenerate =async(id)=>{
-            const userData = [];
-           const {data} = await axios.get(`http://localhost:8000/api/v1/bookingdownload/${id}`);
+    //  const handleGenerate =async(id)=>{
+    //         const userData = [];
+    //        const {data} = await axios.get(`http://localhost:8000/api/v1/bookingdownload/${id}`);
 
-            userData.push(data.user && data.user)
-        const doc = new jsPDF();
-        const title = "VAIGAI TRAVELS";
-        const padding = 10;
-        const titleWith = doc.getTextWidth(title);
-        const center = (doc.internal.pageSize.width / 2) - (titleWith / 2);
+    //         userData.push(data.user && data.user)
+    //     const doc = new jsPDF();
+    //     const title = "VAIGAI TRAVELS";
+    //     const padding = 10;
+    //     const titleWith = doc.getTextWidth(title);
+    //     const center = (doc.internal.pageSize.width / 2) - (titleWith / 2);
 
-        doc.text(title,center,padding);
+    //     doc.text(title,center,padding);
 
-        doc.autoTable({
-            head:[["NO","DATE","DAYS","PARTY NAME","DRIVER NAME","TYPE","DESIGNATION","REASON","TOTAL KM","PER KM","TOTAL AMOUNT","DIESEL","DRIVER","PROFIT AMT"]],
-            body:userData.map((item,index)=>[index+1,item.date,item.days,item.partyname,item.drivername,item.type,item.designation,item.reason,item.totalkm,item.perkm,item.
-              totalamount,item.diesel,item.driver,item.profitamt]),
-            columnStyles:{
-                0:{cellWidth:7,fontSize:5,textAlign:"center"},
-                1:{cellWidth:12,fontSize:5,textAlign:"center"},
-                2:{cellWidth:12,fontSize:5,textAlign:"center"},
-                3:{cellWidth:16,fontSize:5,textAlign:"center"},
-                4:{cellWidth:17,fontSize:5,textAlign:"center"},
-                5:{cellWidth:12,fontSize:5,textAlign:"center"},
-                6:{cellWidth:16,fontSize:5,textAlign:"center"},
-                7:{cellWidth:12,fontSize:5,textAlign:"center"},
-                8:{cellWidth:15,fontSize:5,textAlign:"center"},
-                9:{cellWidth:16,fontSize:5,textAlign:"center"},
-               10:{cellWidth:12,fontSize:5,textAlign:"center"},
-               11:{cellWidth:12,fontSize:5,textAlign:"center"},
-               12:{cellWidth:10,fontSize:5,textAlign:"center"},
-            },
-            headStyles:{
-              fontSize:5,
-              fillColor:"red",
-            }
-        });
-        doc.save("vaigai.pdf")
-     }
+    //     doc.autoTable({
+    //         head:[["NO","DATE","DAYS","PARTY NAME","DRIVER NAME","TYPE","DESIGNATION","REASON","TOTAL KM","PER KM","TOTAL AMOUNT","DIESEL","DRIVER","PROFIT AMT"]],
+    //         body:userData.map((item,index)=>[index+1,item.date,item.days,item.partyname,item.drivername,item.type,item.designation,item.reason,item.totalkm,item.perkm,item.
+    //           totalamount,item.diesel,item.driver,item.profitamt]),
+    //         columnStyles:{
+    //             0:{cellWidth:7,fontSize:5,textAlign:"center"},
+    //             1:{cellWidth:12,fontSize:5,textAlign:"center"},
+    //             2:{cellWidth:12,fontSize:5,textAlign:"center"},
+    //             3:{cellWidth:16,fontSize:5,textAlign:"center"},
+    //             4:{cellWidth:17,fontSize:5,textAlign:"center"},
+    //             5:{cellWidth:12,fontSize:5,textAlign:"center"},
+    //             6:{cellWidth:16,fontSize:5,textAlign:"center"},
+    //             7:{cellWidth:12,fontSize:5,textAlign:"center"},
+    //             8:{cellWidth:15,fontSize:5,textAlign:"center"},
+    //             9:{cellWidth:16,fontSize:5,textAlign:"center"},
+    //            10:{cellWidth:12,fontSize:5,textAlign:"center"},
+    //            11:{cellWidth:12,fontSize:5,textAlign:"center"},
+    //            12:{cellWidth:10,fontSize:5,textAlign:"center"},
+    //         },
+    //         headStyles:{
+    //           fontSize:5,
+    //           fillColor:"red",
+    //         }
+    //     });
+    //     doc.save("vaigai.pdf")
+    //  }
 
   return (
     <div>
-         <div className="form-section container p-3">
+         <div className="form-section container position-relative p-3">
                 <h2 className='text-center' role='button' >Register Form</h2>
+                <div className="alert-box position-absolute top-0 w-100">
+                    {showMessage && showMessage?<h5 className='alert alert-success w-100'>{showMessage}</h5>:""}
+                </div>
              <form onSubmit={handleSubmit(onSubmit)} >
                  <div className="row">
                     <div className="col-md-6 col-lg-4">
@@ -367,6 +373,7 @@ const Filtersubmit = async()=>{
                               name='tollamount'
                               placeholder='Tollamount...'
                               className='form-control'
+                              value={userData.tollamount}
                               {...register("tollamount",{required:true})}
                               onChange={onChange}
                             />
@@ -393,7 +400,7 @@ const Filtersubmit = async()=>{
              </form>
          </div>
          {/* table filter */}
-             <div className="filter-form container my-4">
+             {/* <div className="filter-form container my-4">
                 <h6>Filter Dates:</h6>
               <form className='d-flex'>
                   <div className="filter-group">
@@ -401,7 +408,7 @@ const Filtersubmit = async()=>{
                        value={travelFilter}
                       id='date'
                       format="DD/MM/YYYY"
-                      // minDate={new Date()}
+                      minDate={new Date()}
                       shadow={true}
                       name='date'
                     onChange={(e)=>setTravelFilter(e.toDate().toLocaleDateString("en-IN"))}
@@ -409,12 +416,12 @@ const Filtersubmit = async()=>{
                   />
                   <button type='button' onClick={Filtersubmit} className='btn btn-danger ms-2'>submit</button>
                   <button type='button' className='btn btn-primary ms-2' onClick={viewAll}>View All</button>
-                  {/* <button type='button' className='btn btn-success' onClick={handleGenerate} >GENERATE</button> */}
+                  <button type='button' className='btn btn-success' onClick={handleGenerate} >GENERATE</button>
                   </div>
               </form> 
-             </div>
+             </div> */}
          {/* current form */}
-         <div className="container text-center register-form-head overflow-auto">
+         {/* <div className="container text-center register-form-head overflow-auto">
               {!getData.length ==0?
                <table className='table'>
                    <thead className='table-dark'>
@@ -432,7 +439,7 @@ const Filtersubmit = async()=>{
                            <th>TOTAL AMOUNT</th>
                            <th>DIESEL</th>
                            <th>DRIVER</th>
-                           {/* <th>TOLL AMOUNT</th> */}
+                           <th>TOLL AMOUNT</th>
                            <th>PROFIT AMT</th>
                             <th>DOWNLOAD</th> 
                        </tr>
@@ -454,7 +461,7 @@ const Filtersubmit = async()=>{
                                   <td>{item.totalamount}</td>
                                   <td>{item.diesel}</td>
                                   <td>{item.driver}</td>
-                                  {/* <td>{item.tollamount}</td> */}
+                                  <td>{item.tollamount}</td>
                                   <td>{item.profitamt}</td>
                                   <td><h3><HiOutlineDownload className='text-danger' role='button' onClick={()=>handleGenerate(item._id)} /></h3></td>
                               </tr>
@@ -464,7 +471,7 @@ const Filtersubmit = async()=>{
                </table>
 
               :<div className='p-2'><h3 className='d-flex justify-content-center text-danger'>Record Not Found</h3></div>}
-         </div>
+         </div> */}
     </div>
   )
 }

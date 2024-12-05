@@ -15,8 +15,8 @@ import releax from "../assets/releax/service-1.jpg";
 import releax1 from "../assets/releax/img/img-13.png"
 import construction1 from "../assets/construction/construction-1.jpg";
 import construction2 from "../assets/construction/construction-2.jpg";
-import hotel1 from "../assets/construction/hotel-1.jpg";
-import hotel2 from "../assets/construction/hotel-2.jpg";
+import tea from "../assets/construction/tea-tn.jpg";
+import biritani from "../assets/construction/chicken1.png";
 import restaurant1 from "../assets/construction/restaurant-1.jpg";
 import restaurant2 from "../assets/construction/restaurant-2.jpg";
   //supermarket
@@ -103,18 +103,18 @@ const About = () => {
                       <h2>Releax</h2>
                     <div className="row">
                          <div className="col-md-12 col-lg-5">
-                            <img src={releax} className='w-100 p-3' alt="" />
+                            <img src={tea} className='w-100 p-3' alt="" />
                          </div>
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
-                                 <h5 className='text-danger'>THENEER</h5>
-                             <p className='letter-space opacity-50'>"Welcome to <strong>Vaigai</strong> Shop — where every sip tells a story! Explore the finest teas handpicked from the hills, blended with care, and served with love. Experience tradition, taste, and tranquility in every cup."</p>
+                                 <h5 className='text-danger'>தேநீர் கடை</h5>
+                             <p className='letter-space opacity-50'><strong>வைகை</strong> கடைக்கு வரவேற்கிறோம் — ஒவ்வொரு சிப்பும் ஒரு கதை சொல்லும்! மலைகளில் இருந்து தேர்ந்தெடுக்கப்பட்ட, கவனத்துடன் கலந்து, அன்புடன் பரிமாறப்படும் சிறந்த தேநீர்களை ஆராயுங்கள். ஒவ்வொரு கோப்பையிலும் பாரம்பரியம், சுவை மற்றும் அமைதியை அனுபவியுங்கள்."</p>
                             <h5 className='opacity-50'>About Us Section</h5>
                             <p className='letter-space opacity-50'>"At <strong>Vaigai</strong> , we believe that tea is more than a beverage; it's a culture, a connection, and a comfort. Founded in [year], we source premium teas from across the globe and infuse them with local traditions. From refreshing green teas to robust chai, each cup is a journey of flavors waiting to be explored."</p>
                               </div>
                          </div>
                    </div>
-                   <div className="row">
+                   <div  data-aos="flip-right" className="row">
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
                                  <h5 className='text-danger'>Product Descriptions</h5>
@@ -131,7 +131,7 @@ const About = () => {
                    </div>
                     </div>
                     {/* construction */}
-                    <div className="construction py-3">
+                    <div className="construction py-3"  data-aos="flip-right">
                       <h2 className='text-uppercase'>construction</h2>
                     <div className="row">
                          <div className="col-md-12 col-lg-5">
@@ -140,7 +140,7 @@ const About = () => {
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
                                  <h5 className='text-danger text-uppercase'>construction</h5>
-                             <p className='letter-space opacity-50'>"Welcome to <strong>vaigai</strong> — Building the Future, One Brick at a Time. From concept to completion, we provide innovative, high-quality construction solutions tailored to your needs."</p>
+                             <p className='letter-space opacity-50'>"வைகைக்கு வரவேற்கிறோம் - எதிர்காலத்தை உருவாக்குதல், ஒரு நேரத்தில் ஒரு செங்கல். கருத்து முதல் நிறைவு வரை, உங்கள் தேவைகளுக்கு ஏற்ப புதுமையான, உயர்தர கட்டுமான தீர்வுகளை நாங்கள் வழங்குகிறோம்"</p>
                             <h5>About Us Section</h5>
                             <p className='letter-space opacity-50'>"At <strong>vaigai</strong>, we take pride in delivering exceptional construction services. With [2010] of experience, our skilled team specializes in residential, commercial, and industrial projects. We are committed to quality, safety, and sustainability, ensuring every project exceeds expectations."</p>
                               </div>
@@ -164,7 +164,7 @@ const About = () => {
                    </div>
                     </div>
                     {/*Hotel  */}
-                    <div className="hotel py-3">
+                    {/* <div className="hotel py-3">
                        <h2>HOTEL</h2>
                     <div className="row">
                          <div className="col-md-12 col-lg-5">
@@ -194,18 +194,18 @@ const About = () => {
                             <img src={hotel2} className='w-100 p-3' alt="" />
                          </div>
                    </div>
-                    </div>
+                    </div> */}
                     {/* restaurant */}
-                     <div className="restaurant py-3">
+                     <div  data-aos="flip-right" className="restaurant py-3">
                       <h2 className='text-uppercase'>restaurant</h2>
                      <div className="row">
                          <div className="col-md-12 col-lg-5">
-                            <img src={restaurant1} className='w-100 p-3' alt="" />
+                            <img src={biritani} className='w-100 p-3 rotate' alt="" />
                          </div>
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
                                  <h5 className='text-danger text-uppercase'>Hotel</h5>
-                             <p className='letter-space opacity-50'>"Welcome to Vaigai Restaurant — your culinary destination on Madurai Road, Begambur! Experience the authentic flavors of South India and beyond, served with warmth and tradition in the heart of Dindigul."</p>
+                             <p className='letter-space opacity-50'>வைகை உணவகத்திற்கு வரவேற்கிறோம் — உங்கள் சமையல் இடமான மதுரை சாலையில் உள்ள பேகம்பூர்! திண்டுக்கல்லின் இதயத்தில் அரவணைப்பு மற்றும் பாரம்பரியத்துடன் பரிமாறப்படும் தென்னிந்தியா மற்றும் அதற்கு அப்பால் உள்ள உண்மையான சுவைகளை அனுபவிக்கவும்.</p>
                             <h5>About Us Section</h5>
                             <p className='letter-space opacity-50'>"Located at the heart of Dindigul, Vaigai Restaurant is more than just a dining spot — it's a celebration of flavors. Our chefs bring you time-honored recipes made with fresh, local ingredients. From rich biryanis to delicious dosas, every dish reflects the culinary heritage of Tamil Nadu."</p>
                               </div>
@@ -228,7 +228,7 @@ const About = () => {
                    </div>
                      </div>
                      {/* super market */}
-                     <div className="supermarket py-3">
+                     <div  data-aos="flip-right" className="supermarket py-3">
                        <h2>SUPER MARKET </h2>
                      <div className="row">
                          <div className="col-md-12 col-lg-5">

@@ -1,14 +1,16 @@
-import onedat1 from "../../assets/one-day/dindigul-city-tour.jpg";
-import onedat2 from "../../assets/one-day/dindigul-rameswaram.jpg";
-import onedat3 from "../../assets/one-day/dindigul-kodaikanal.jpg";
-import onedat4 from "../../assets/one-day/dindigul-palani-tour.jpg";
-import onedat5 from "../../assets/one-day/dindigul-chettinad-tour.jpg";
-import onedat6 from "../../assets/one-day/dindigul-thiruchendur-tour.jpg";
-import onedat7 from "../../assets/one-day/dindigul-Rameswaram (3).jpg";
-import onedat8 from "../../assets/one-day/sri-meenakshi-temple.png";
-import onedat9 from "../../assets/one-day/bamban-bridge.jpg";
-import onedat10 from "../../assets/one-day/honeymoon-1.jpg";
-import onedat11 from "../../assets/one-day/honeymoon-2.jpg";
+import {Link} from "react-router-dom"
+import onedat1 from "../../assets/one-day/all-compo/coakers-walk.jpg";
+import onedat2 from "../../assets/one-day/all-compo/dindigul-rock-fort.jpg";
+import onedat3 from "../../assets/one-day/all-compo/doiphin-nose.jpg";
+import onedat4 from "../../assets/one-day/all-compo/guna-cave.jpg";
+import onedat5 from "../../assets/one-day/all-compo/palani.jpg";
+import onedat6 from "../../assets/one-day/all-compo/kurinji-andaver.jpg";
+import onedat7 from "../../assets/one-day/all-compo/mannavenur-lake.jpg";
+import onedat8 from "../../assets/one-day/all-compo/pine-forest.jpg";
+import onedat9 from "../../assets/one-day/all-compo/poombarai-viilage.jpg";
+import onedat10 from "../../assets/one-day/all-compo/silver-cascade-falls.jpg";
+import onedat11 from "../../assets/one-day/all-compo/vattakanal-waterfalls.jpg";
+
 import onedat12 from "../../assets/one-day/honeymoon-3.png";
 import onedat13 from "../../assets/Pilgrimage/Pilgrimage-1.jpg";
 import onedat14 from "../../assets/Pilgrimage/Pilgrimage-2.jpg";
@@ -55,46 +57,86 @@ export const OneDayPackages = ()=>{
              <div className="row">
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat1} className="w-100 p-1" alt="" />
-                        <h6 className="text-uppercase py-3">vaigai - vaigai City tour</h6>
+                        <h6 className="text-uppercase py-3">coakers walk</h6>
                         <div className="btn-section">
-                             <button className="btn-btn m-1">GET TARIFF</button>
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
                         </div>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat2} className="w-100 p-1" alt="" />
-                        <h6 className="text-uppercase py-3">vaigai - vaigai City tour</h6>
+                        <h6 className="text-uppercase py-3">dindigul rock fort</h6>
                         <div className="btn-section">
-                             <button className="btn-btn m-1">GET TARIFF</button>
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
                         </div>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat3} className="w-100 p-1" alt="" />
-                        <h6 className="text-uppercase py-3">vaigai - vaigai City tour</h6>
+                        <h6 className="text-uppercase py-3">doiphin nose</h6>
                         <div className="btn-section">
-                             <button className="btn-btn m-1">GET TARIFF</button>
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
                         </div>
                   </div>
              </div>
              <div className="row mt-2">
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat4} className="w-100 p-1" alt="" />
-                        <h6 className="text-uppercase py-3">vaigai - vaigai City tour</h6>
+                        <h6 className="text-uppercase py-3">doiphin nose</h6>
                         <div className="btn-section">
-                             <button className="btn-btn m-1">GET TARIFF</button>
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
                         </div>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat5} className="w-100 p-1" alt="" />
-                        <h6 className="text-uppercase py-3">vaigai - vaigai City tour</h6>
+                        <h6 className="text-uppercase py-3">guna cave</h6>
                         <div className="btn-section">
-                             <button className="btn-btn m-1">GET TARIFF</button>
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
                         </div>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat6} className="w-100 p-1" alt="" />
-                        <h6 className="text-uppercase py-3">vaigai - vaigai City tour</h6>
+                        <h6 className="text-uppercase py-3">kurinji andaver</h6>
                         <div className="btn-section">
-                             <button className="btn-btn m-1">GET TARIFF</button>
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+                        </div>
+                  </div>
+             </div>
+             <div className="row mt-2">
+                  <div className="col-md-12 col-lg-4">
+                        <img src={onedat7} className="w-100 p-1" alt="" />
+                        <h6 className="text-uppercase py-3">mannavenur lake</h6>
+                        <div className="btn-section">
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+                        </div>
+                  </div>
+                  <div className="col-md-12 col-lg-4">
+                        <img src={onedat8} className="w-100 p-1" alt="" />
+                        <h6 className="text-uppercase py-3">pine forest</h6>
+                        <div className="btn-section">
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+                        </div>
+                  </div>
+                  <div className="col-md-12 col-lg-4">
+                        <img src={onedat9} className="w-100 p-1" alt="" />
+                        <h6 className="text-uppercase py-3">poombarai viilage</h6>
+                        <div className="btn-section">
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+                        </div>
+                  </div>
+             </div>
+
+             <div className="row mt-2">
+                  <div className="col-md-12 col-lg-4">
+                        <img src={onedat10} className="w-100 p-1" alt="" />
+                        <h6 className="text-uppercase py-3">silver cascade falls</h6>
+                        <div className="btn-section">
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+                        </div>
+                  </div>
+                  <div className="col-md-12 col-lg-4">
+                        <img src={onedat11} className="w-100 p-1" alt="" />
+                        <h6 className="text-uppercase py-3">vattakanal waterfalls</h6>
+                        <div className="btn-section">
+                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
                         </div>
                   </div>
              </div>
@@ -113,7 +155,7 @@ export const HolidayTour = ()=>{
               <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
               <p className="text-center">Dindigul, Rameswaram, Kodaikanal, Dindigul</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+                  <Link to={"/contact"}> <button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
         <div className="col-md-12 col-lg-4">
@@ -122,7 +164,7 @@ export const HolidayTour = ()=>{
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Dindigul, Kodaikannal, Ooty, Mysore, Bangalore ....</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <Link to={"/contact"}> <button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
         <div className="col-md-12 col-lg-4">
@@ -131,7 +173,7 @@ export const HolidayTour = ()=>{
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Trichy, Thanjavur, Rameswaram, Dindigul, Kanniyakumari, Trivandrum ....</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <Link to={"/contact"}> <button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
    </div>
@@ -145,7 +187,7 @@ export const Honeymoon = ()=>{
        <div className="row">
         <div className="col-md-12 col-lg-4">
               <img src={onedat10} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 1</h6>
+              <h6 className="text-uppercase py-3">silver cascade falls</h6>
               <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
               <p className="text-center">Dindigul, Rameswaram, Kodaikanal, Dindigul</p>
               <div className="btn-section">
@@ -154,7 +196,7 @@ export const Honeymoon = ()=>{
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat11} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 2</h6>
+              <h6 className="text-uppercase py-3">vattakanal waterfalls</h6>
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Dindigul, Kodaikannal, Ooty, Mysore, Bangalore ....</p>
               <div className="btn-section">
@@ -163,7 +205,7 @@ export const Honeymoon = ()=>{
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat12} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 3</h6>
+              <h6 className="text-uppercase py-3">kodaikanal</h6>
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Trichy, Thanjavur, Rameswaram, Dindigul, Kanniyakumari, Trivandrum ....</p>
               <div className="btn-section">
@@ -181,58 +223,59 @@ export const Pilgrimage = ()=>{
                     <div className="row">
         <div className="col-md-12 col-lg-4">
               <img src={onedat13} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 1</h6>
+              <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 1</h6>
               <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
-              <p className="text-center">Dindigul, Rameswaram, Kodaikanal, Dindigul</p>
+              <p className="text-center">DINDIGUL, Rameswaram, Kanniyakumari, Trivandrum</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat14} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 2</h6>
+              <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 2</h6>
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
-              <p className="text-center">Dindigul, Kodaikannal, Ooty, Mysore, Bangalore ....</p>
+              <p className="text-center">Chennai, Thiruppathi, Thiruvannamalai, Trichy, Kodaikanal, Madurai, Rameshwaram, Kaniyakumari, Trivandrum..</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat15} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 3</h6>
+              <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 3</h6>
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
-              <p className="text-center">Trichy, Thanjavur, Rameswaram, Dindigul, Kanniyakumari, Trivandrum ....</p>
+              <p className="text-center">Chennai, Thirupathi, Pondichery, Thanjavur, Rameshwaram, Kaniyakumari, Madurai ...</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
        </div>
        <div className="row mt-2">
         <div className="col-md-12 col-lg-4">
               <img src={onedat16} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 1</h6>
+              <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 4</h6>
               <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
-              <p className="text-center">Dindigul, Rameswaram, Kodaikanal, Dindigul</p>
+              <p className="text-center">ARUPADAI VEEDU PACKAGE .</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat17} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 2</h6>
+              <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 6</h6>
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
-              <p className="text-center">Dindigul, Kodaikannal, Ooty, Mysore, Bangalore ....</p>
+              <p className="text-center">KUMBAKONAM NAVAGIRAGAM TEMPLE PACKAGE ....</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
               </div>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat18} className="w-100 p-1" alt="" />
-              <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 3</h6>
+              <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 6</h6>
               <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
-              <p className="text-center">Trichy, Thanjavur, Rameswaram, Dindigul, Kanniyakumari, Trivandrum ....</p>
+              <p className="text-center">DINDIGUL TO SABARI MALAI ...</p>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+                <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+                   
               </div>
         </div>
        </div>

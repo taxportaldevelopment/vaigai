@@ -12,12 +12,12 @@ import onedat10 from "../../assets/one-day/all-compo/silver-cascade-falls.jpg";
 import onedat11 from "../../assets/one-day/all-compo/vattakanal-waterfalls.jpg";
 
 import onedat12 from "../../assets/one-day/honeymoon-3.png";
-import onedat13 from "../../assets/Pilgrimage/Pilgrimage-1.jpg";
-import onedat14 from "../../assets/Pilgrimage/Pilgrimage-2.jpg";
-import onedat15 from "../../assets/Pilgrimage/Pilgrimage-3.jpg";
-import onedat16 from "../../assets/Pilgrimage/Pilgrimage-4.jpg";
-import onedat17 from "../../assets/Pilgrimage/Pilgrimage-5.jpg";
-import onedat18 from "../../assets/Pilgrimage/Pilgrimage-6.jpg";
+import onedat13 from "../../assets/Pilgrimage/pilgrimage-1.jpg";
+import onedat14 from "../../assets/Pilgrimage/pilgrimage-2.jpg";
+import onedat15 from "../../assets/Pilgrimage/pilgrimage-3.jpg";
+import onedat16 from "../../assets/Pilgrimage/pilgrimage-4.jpg";
+import onedat17 from "../../assets/Pilgrimage/pilgrimage-5.jpg";
+import onedat18 from "../../assets/Pilgrimage/pilgrimage-6.jpg";
 // tour places packages
 import madurai1 from "../../assets/madurai/sri-meenakshi-temple.jpg";
 import madurai2 from "../../assets/madurai/Thiruparankundaram-place.jpg";

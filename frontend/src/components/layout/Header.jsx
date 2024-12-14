@@ -42,13 +42,13 @@ const Header = () => {
   }}
 >
   <NavbarBrand> 
-    <Link to={"/vaigai"} className="text-danger" onClick={()=>setActive("vaigai")} style={{ fontSize: "30px", fontWeight: "700", color:(active == "vaigai"?"red":"black")}}>
+    <Link to={"/"} className="text-danger" onClick={()=>setActive("vaigai")} style={{ fontSize: "30px", fontWeight: "700", color:(active == "vaigai"?"red":"black")}}>
       <img src={brandLogo} height={65} alt="" />
     </Link>
   </NavbarBrand>
   <NavbarContent>
     <NavItem>
-      <Link to={"/vaigai"} onClick={()=>setActive("vaigai")} style={{color:(active == "vaigai"?"red":"black")}} >Home</Link>
+      <Link to={"/"} onClick={()=>setActive("vaigai")} style={{color:(active == "vaigai"?"red":"black")}} >Home</Link>
     </NavItem>
     <NavItem>
       <Link to={"/about"} onClick={()=>setActive("about")} style={{color:(active == "about"?"red":"black")}}>About</Link>

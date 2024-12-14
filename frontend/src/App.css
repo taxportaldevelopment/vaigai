@@ -1,0 +1,256 @@
+.office-address .icons{
+    width: 40px;
+    height: 40px;
+    border-right: 4px solid red;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* letter-space */
+.letter-space{
+     letter-spacing:2px;
+}
+.our-bussiness-contact{
+     background-color: #fffbf2;
+}
+.booking-data-table{
+    font-size: 12px;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* animation */
+.animation-show{
+    scale: .2;
+    opacity: 0;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    animation: slow linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    /* transition: 1000ms ; */
+    transition: all 1s ease-in;
+}
+@keyframes slow {
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+}
+.contact-banner{
+    height: 70vh;
+    background:linear-gradient(to right,#00000093,#000000b6),url(./assets/contact-banner.jpg) center;
+}
+.contact-us .contact-icons-box{
+    width: 90%;
+    background-color: #f3f8f6;
+}
+.contact-section-us .google-map{
+    position: relative;
+}
+.contact-section-us .contact-fixed{
+    position: absolute;
+    top:-50px;
+    left: 130px;
+    background:linear-gradient(to right,#23202065,#1c1a1aa1),url(./assets/bg-shape-04.png);
+    color: red;
+}
+.payment-section .payment-bank{
+    height: 40px;
+
+}
+/* home */
+.share-link{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 75%;
+    background-color: red;
+}
+.whatsapp-links{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    overflow: hidden;
+}
+.media-link{
+    /* border-radius: 10px; */
+    /* height: 100px; */
+}
+.whatsapp-links .show-section{
+     transform: translateX(-100px);
+}
+.whatsapp-links:hover .show-section{
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.whatsapp-links:hover .media-hover{
+    transform:rotate(50deg);
+    transition: all 1s ease-in-out;
+}
+/* our-customer */
+.our-customer{
+    background-color: #fffbf2;
+}
+.our-customer .customer{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 10px;
+}
+.our-customer .customer .images{
+    overflow: hidden;
+}
+.our-customer .customer:hover img{
+     transform: scale(1.1);
+     transition: all 1s ease-in-out;
+}   
+.our-customer .customer{
+    background-color: white;
+}
+.our-customer .customer:hover{
+     border-top: 2px solid #fff;
+     border-right: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+}
+/* footer */
+.footer-section{
+    background-color: #4d4a4a;
+}
+/* .why-choose-us .why-choose-at-us{
+    position: relative;
+} */
+/* .why-choose-at-us{
+    background-color: #0a090985 !important;
+
+} */
+ .why-choose-us{
+    background:url(./assets/bg-shape-04.png) ;
+ }
+.why-choose-us .why-choose-at-us:hover {
+    transform: translateY(-20px) rotateY(360deg);
+    transition: all 1s ease-in-out;
+    background:url(./assets/bg-shape-04.png) ;
+}
+
+/* book-your-cab-banner */
+.book-your-cab{
+    background:url(./assets/bg-shape-04.png) ;
+}
+.book-your-cab-banner{
+    height: 70vh;
+    background:linear-gradient(to right,#00000071,#00000091), url(./assets/book-you-cab.png) no-repeat center;
+    background-size: cover;
+}
+.book-your-cab .bank-head-line{
+    position: relative;
+}
+.book-your-cab .bank-head-line::before{
+    content: "";
+    width: 40px;
+    padding: 2px;
+    position: absolute;
+    top: 27px;
+    left:17px;
+    background-color: red;
+}
+.book-your-cab .bank-head-line::after{
+    content: "";
+    width: 40px;
+    padding: 2px;
+    position: absolute;
+    top: 27px;
+    right:17px;
+    background-color: red;
+}
+
+/* register-form-head */
+.register-form-head th{
+    font-size: 10px;
+}
+/* releax-banner */
+.releax-releax{
+     background-color: #fffbf2;
+}
+.releax-banner{
+    height: 70vh;
+    background:linear-gradient(to right,#00000093,#000000b6),url(./assets/releax/carousel-2.jpg) no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.releax-banner::after{
+     content: "";
+     background: url(./assets/releax/overlay-bottom.png);
+     position: absolute;
+     height: 10px;
+     width: 100%;
+     bottom: 0;
+}
+.releax-releax .relea-offer{
+    position: relative;
+    height: 70vh;
+    background:linear-gradient(to right,#00000093,#000000b6), url(./assets/releax/bg.jpg);
+}
+.releax-releax .relea-offer::before{
+    content: "";
+    background: url(./assets/releax/overlay-top.png);
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    top: 0;
+}
+.releax-releax .relea-offer::after{
+    content: "";
+    background: url(./assets/releax/overlay-bottom.png);
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    bottom: 0;
+}
+.vaigai-releax-tea{
+    position: relative;
+    overflow: hidden;
+}
+.vaigai-releax-tea .releax-content{
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: #1c1919;
+  inset: 0;
+  transform: scale(0);
+  transition: all 1s ease-in-out;
+}
+.vaigai-releax-tea:hover .releax-content{
+    background:linear-gradient(to left,rgba(255, 0, 0, 0.815),#000000b9);
+    transform: scale(1.1);
+}
+/* .vaigai-releax-tea:hover .releax-content{
+    bottom: 100px;
+    transition: all 1s ease-in-out;
+    transform: rotate(-360deg);
+}
+.vaigai-releax-tea .releax-content:hover{
+    background:linear-gradient(to left,red,#000);
+    color: black;
+} */
+.rotate {
+    animation: rotation 10s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+@media screen and (max-width:750px){
+
+    .contact-section-us .contact-fixed{
+        position:static;
+    }
+}

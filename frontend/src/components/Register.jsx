@@ -15,9 +15,8 @@ const Register = () => {
     useEffect(()=>{
 
        if(statusActive){
-         
          async function getalluser(){
-              const {data} = await axios.get(`http://localhost:8000/api/v1/getallusers`);
+              const {data} = await axios.get(`${import.meta.env.VITE_SERVER_APP_URL}/api/v1/getallusers`);
               setGetData(data?.user)
               setStatusActive(false)
           }  
@@ -75,7 +74,7 @@ const Register = () => {
 
              try{
                 setShowMessage("Sending...")
-               const {data} = await axios.post(`http://localhost:8000/api/v1/userdetails`,userdata);
+               const {data} = await axios.post(`${import.meta.env.VITE_SERVER_APP_URL}/api/v1/userdetails`,userdata);
                  if(data.success){
                      setShowMessage("Pending...")
                  }

@@ -14,7 +14,7 @@ const PackageTable = () => {
     const [to,setTo] = useState();
     useEffect(()=>{
         const getAllBooking = async()=>{
-            const {data} = await axios.get(`http://localhost:8000/api/v1/getallusers`);
+            const {data} = await axios.get(`${import.meta.env.VITE_SERVER_APP_URL}/api/v1/getallusers`);
             setBookingList(data?.user)
             setViewAll(false)
         }
@@ -27,7 +27,7 @@ const PackageTable = () => {
                from,
                to
           }
-         const {data} = await axios.post(`http://localhost:8000/api/v1/getfromandto/date`,store);
+         const {data} = await axios.post(`${import.meta.env.VITE_SERVER_APP_URL}/api/v1/getfromandto/date`,store);
          setBookingList(data?.user)
      }
      

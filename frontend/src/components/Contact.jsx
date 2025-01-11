@@ -113,7 +113,7 @@ const Contact = () => {
             <div className="container-fluid py-4 my-4">
                    <div className="row">
                         <div className="col-md-12 col-lg-6 p-3">
-                              <span className="px-3 py-2 bg-danger text-white">Contact With Us</span>
+                              {/* <span className="px-3 py-2 bg-danger text-white">Contact With Us</span> */}
                               <h2 className="py-3">Have questions? Feel free to write us</h2> 
                               <p className="py-3">Man braid hell of edison bulb four brunch subway tile authentic, 
                               chillwave put a bird on church-key ramps heirloom. Set perspiciatis unde 
@@ -173,7 +173,7 @@ const Contact = () => {
                               </div>
                               <div className="row">
                                     <div className="col-md-12">
-                                          <button className="btn btn-primary">Submit</button>
+                                    <button className="button-24" role="button">Submit</button>
                                     </div>
                               </div>
 

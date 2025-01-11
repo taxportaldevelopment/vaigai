@@ -5,18 +5,18 @@ import Home from "./components/Home"
 import About from "./components/About"
 import OneDayPackage from "./components/OneDayPackage"
 import Footer from "./components/layout/Footer"
-import TourPlaces from "./components/TourPlaces"
+// import TourPlaces from "./components/TourPlaces"
 import Contact from "./components/Contact"
-import Payment from "./components/Payment"
+// import Payment from "./components/Payment"
 
 // icons
 import { IoPhonePortrait } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import BookYourCab from "./components/BookYourCab"
-import { FcCalculator } from "react-icons/fc";
+// import { FcCalculator } from "react-icons/fc";
 import Register from "./components/Register"
-import Releax from "./components/Releax"
+// import Releax from "./components/Releax"
 import PackageTable from "./components/PackageTable"
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
                <Route path="/one-day-package" element={<OneDayPackage/>} />
                {/* <Route path="/tour-places" element={<TourPlaces/>} /> */}
                <Route path="/contact" element={<Contact/>} />
-               <Route path="/payment" element={<Payment/>} />
+               {/* <Route path="/payment" element={<Payment/>} /> */}
                <Route path="/book-you-cab" element={<BookYourCab/>} />
                <Route path="/register" element={<Register/>} />
                {/* <Route path="/releax" element={<Releax/>} /> */}
@@ -46,12 +46,12 @@ function App() {
                          <FcCalculator className="h4" />
                           </div> */}
                           <div className="share-link d-flex justify-content-center align-items-center text-white">
-                             <a href="tel:+91 94882 44111"><IoPhonePortrait className="h4 text-white" /></a>
+                             <a href="tel:+91 8489946488"><IoPhonePortrait className="h4 text-white" /></a>
                           </div>
                          </div>
                          <div>
                       <div className="share-link d-flex justify-content-center align-items-center text-white">
-                         <a href="https://api.whatsapp.com/send?phone=94882 44111"><FaWhatsapp className="h4 text-success text-white" /></a>
+                         <a href="https://api.whatsapp.com/send?phone=8489946488"><FaWhatsapp className="h4 text-success text-white" /></a>
                       </div>
                          </div>
                       </div>

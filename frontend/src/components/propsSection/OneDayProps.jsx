@@ -50,6 +50,9 @@ import thanjavur2 from "../../assets/Thanjavur/vinayagar-fort.png";
 import thanjavur3 from "../../assets/Thanjavur/Sivaganga-Garden.jpg";
 import thanjavur4 from "../../assets/Thanjavur/Punnai-Nallur-Mariamman-Temple.jpg";
 
+// icons
+import { FaStar } from "react-icons/fa6";
+
 export const OneDayPackages = ()=>{
 
     return(
@@ -58,69 +61,204 @@ export const OneDayPackages = ()=>{
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat1} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">coakers walk</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat2} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">dindigul rock fort</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat3} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">doiphin nose</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
              </div>
              <div className="row mt-2">
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat4} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">doiphin nose</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat5} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">guna cave</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat6} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">kurinji andaver</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
              </div>
              <div className="row mt-2">
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat7} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">mannavenur lake</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat8} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">pine forest</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat9} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">poombarai viilage</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
              </div>
 
@@ -128,16 +266,46 @@ export const OneDayPackages = ()=>{
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat10} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">silver cascade falls</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
                   <div className="col-md-12 col-lg-4">
                         <img src={onedat11} className="w-100 p-1" alt="" />
                         <h6 className="text-uppercase py-3">vattakanal waterfalls</h6>
-                        <div className="btn-section">
-                        <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                        </div>
+                        <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
                   </div>
              </div>
         </div>
@@ -152,28 +320,75 @@ export const HolidayTour = ()=>{
         <div className="col-md-12 col-lg-4">
               <img src={onedat7} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 1</h6>
-              <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
               <p className="text-center">Dindigul, Rameswaram, Kodaikanal, Dindigul</p>
+                 <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-                  <Link to={"/contact"}> <button className="btn-btn m-1">View</button></Link>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat8} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 2</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
-              <p className="text-center">Dindigul, Kodaikannal, Ooty, Mysore, Bangalore ....</p>
+              <p className="text-center">Dindigul, Kodaikannal, Ooty, Mysore, Bangalore ....</p><br />
               <div className="btn-section">
-              <Link to={"/contact"}> <button className="btn-btn m-1">View</button></Link>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div>
+              <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
+              </div>
+              
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat9} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">HOLIDAY TOUR PACKAGE 3</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Trichy, Thanjavur, Rameswaram, Dindigul, Kanniyakumari, Trivandrum ....</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div>
               <div className="btn-section">
-              <Link to={"/contact"}> <button className="btn-btn m-1">View</button></Link>
+              <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
               </div>
         </div>
    </div>
@@ -188,29 +403,71 @@ export const Honeymoon = ()=>{
         <div className="col-md-12 col-lg-4">
               <img src={onedat10} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">silver cascade falls</h6>
-              <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
               <p className="text-center">Dindigul, Rameswaram, Kodaikanal, Dindigul</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat11} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">vattakanal waterfalls</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Dindigul, Kodaikannal, Ooty, Mysore, Bangalore ....</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat12} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">kodaikanal</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Trichy, Thanjavur, Rameswaram, Dindigul, Kanniyakumari, Trivandrum ....</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-                   <button className="btn-btn m-1">GET TARIFF</button>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
        </div>
         </div>
@@ -224,59 +481,142 @@ export const Pilgrimage = ()=>{
         <div className="col-md-12 col-lg-4">
               <img src={onedat13} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 1</h6>
-              <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
               <p className="text-center">DINDIGUL, Rameswaram, Kanniyakumari, Trivandrum</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat14} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 2</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Chennai, Thiruppathi, Thiruvannamalai, Trichy, Kodaikanal, Madurai, Rameshwaram, Kaniyakumari, Trivandrum..</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat15} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 3</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">Chennai, Thirupathi, Pondichery, Thanjavur, Rameshwaram, Kaniyakumari, Madurai ...</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
        </div>
        <div className="row mt-2">
         <div className="col-md-12 col-lg-4">
               <img src={onedat16} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 4</h6>
-              <h6 className="text-center text-primary">(4 Nights 5 Days)</h6>
               <p className="text-center">ARUPADAI VEEDU PACKAGE .</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat17} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 6</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">KUMBAKONAM NAVAGIRAGAM TEMPLE PACKAGE ....</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-              <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
         <div className="col-md-12 col-lg-4">
               <img src={onedat18} className="w-100 p-1" alt="" />
               <h6 className="text-uppercase py-3">PILGRIMS TOUR PACKAGE 6</h6>
-              <h6 className="text-center text-primary">(6 Nights 7 Days)</h6>
               <p className="text-center">DINDIGUL TO SABARI MALAI ...</p>
+              <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
               <div className="btn-section">
-                <Link to={"/contact"}><button className="btn-btn m-1">View</button></Link>
-                   
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
               </div>
+                 </Link>
         </div>
        </div>
         </div>
@@ -291,55 +631,160 @@ export const MaduraiTour = ()=>{
          <div className="col-md-12 col-lg-4">
                <img src={madurai1} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Sri Meenakshi Sundareswarar Temple</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={madurai2} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Thiruparankundaram Temple</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={madurai3} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Alagar Kovil</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
         <div className="row mt-2">
          <div className="col-md-12 col-lg-4">
                <img src={madurai4} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Gandhi Museum</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={madurai5} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Marriyamman Water Tank</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={madurai6} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Thirumalai Nayakar Mahal</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
         <div className="row mt-2">
          <div className="col-md-12 col-lg-4">
                <img src={madurai7} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Pazhamudhircholai Murugan Temple</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
          </div>
@@ -353,69 +798,204 @@ export const Rameshwarem = ()=>{
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram1} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Sri Ramanatha Swamy Temple</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram2} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Agni Theertham</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram3} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Dhanushkodi</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
         <div className="row mt-2">
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram4} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Ramar palam</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram5} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Lakshmanatheertham</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram6} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">A.P.J Abdul Kalam Memorial</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
         <div className="row mt-2">
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram7} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Pamban Bridge</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram8} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Panchamukhi Hanuman Temple</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={rameshwaram9} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Ramar Patham Temple</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
          </div>
@@ -429,55 +1009,160 @@ export const Kanyakumari = ()=>{
          <div className="col-md-12 col-lg-4">
                <img src={Kanyakumari1} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Vivekananda rock</h6>
-               <div className="btn-section"> 
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={Kanyakumari2} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Parvathi Temple</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={Kanyakumari3} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Wax Museum</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
         <div className="row mt-2">
          <div className="col-md-12 col-lg-4">
                <img src={Kanyakumari4} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Sunrise Point</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={Kanyakumari5} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Sunset Point</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
          <div className="col-md-12 col-lg-4">
                <img src={Kanyakumari6} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Thiriveni Sangamam</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
         <div className="row mt-2">
          <div className="col-md-12 col-lg-4">
                <img src={Kanyakumari7} className="w-100 p-1" alt="" />
                <h6 className="text-uppercase py-3">Gandhi Memorial</h6>
-               <div className="btn-section">
-                    <button className="btn-btn m-1">GET TARIFF</button>
-               </div>
+               <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
          </div>
         </div>
          </div>
@@ -491,26 +1176,69 @@ export const Thanjavur = ()=>{
           <div className="col-md-12 col-lg-4">
                 <img src={thanjavur1} className="w-100 p-1" alt="" />
                 <h6 className="text-uppercase py-3">Sri Pragatheeswarar Temple</h6>
-                <div className="btn-section"> 
-                     <button className="btn-btn m-1">GET TARIFF</button>
-                </div>
+                <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
           </div>
           <div className="col-md-12 col-lg-4">
                 <img src={thanjavur2} className="w-100 p-1" alt="" />
                 <h6 className="text-uppercase py-3">Vijayanagar Fort</h6>
-                <div className="btn-section">
-                     <button className="btn-btn m-1">GET TARIFF</button>
-                </div>
+                <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
           </div>
           <div className="col-md-12 col-lg-4">
                 <img src={thanjavur3} className="w-100 p-1" alt="" />
                 <h6 className="text-uppercase py-3">Sivaganga Garden</h6>
-                <div className="btn-section">
-                     <button className="btn-btn m-1">GET TARIFF</button>
-                </div>
+                <div className="star-rading d-flex justify-content-end">
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                    <FaStar className="h5 text-warning" />
+                 </div><br />
+                 <Link to={"/contact"}>
+              <div className="btn-section">
+              <button className="button-82-pushable" role="button">
+              <span className="button-82-shadow"></span>
+              <span className="button-82-edge"></span>
+              <span className="button-82-front text">
+              Contact
+  </span>
+</button>
+              </div>
+                 </Link>
           </div>
-         </div>
-         <div className="row mt-2">
           <div className="col-md-12 col-lg-4">
                 <img src={thanjavur4} className="w-100 p-1" alt="" />
                 <h6 className="text-uppercase py-3">Punnai Nallur Mariamman Temple</h6>

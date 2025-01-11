@@ -53,31 +53,34 @@ const Header = () => {
     <NavItem>
       <Link to={"/about"} onClick={()=>setActive("about")} style={{color:(active == "about"?"red":"black")}}>About</Link>
     </NavItem>
-    <DropDown style={{ width: "170px" }} label="Services">
+    <NavItem>
+        <Link to={"/one-day-package"} onClick={()=>setActive("One Day Package")} style={{color:(active == "One Day Package"?"red":"black")}}>One Day Package</Link>
+      </NavItem>
+    {/* <DropDown style={{ width: "170px" }} label="Services">
       <NavItem>
         <Link to={"/one-day-package"} onClick={()=>setActive("One Day Package")} style={{color:(active == "One Day Package"?"red":"black")}}>One Day Package</Link>
       </NavItem>
       <NavItem>
-        {/* <Link to={"/tour-places"} onClick={()=>setActive("Tour Places")} style={{color:(active == "Tour Places"?"red":"black")}}>Tour Places</Link> */}
+        <Link to={"/tour-places"} onClick={()=>setActive("Tour Places")} style={{color:(active == "Tour Places"?"red":"black")}}>Tour Places</Link>
       </NavItem>
       <NavItem>
-      {/* <Link to={"/releax"} onClick={()=>setActive("releax")} style={{color:(active == "Tour Places"?"red":"black")}}>Releax</Link> */}
+      <Link to={"/releax"} onClick={()=>setActive("releax")} style={{color:(active == "Tour Places"?"red":"black")}}>Releax</Link>
       </NavItem>
-    </DropDown>
+    </DropDown> */}
     <NavItem>
       <Link to={"/contact"} onClick={()=>setActive("contact")} style={{color:(active == "contact"?"red":"black")}}>Contact</Link>
     </NavItem>
-    <NavItem>
+    {/* <NavItem>
       <Link to={"/payment"} onClick={()=>setActive("Payment")} style={{color:(active == "Payment"?"red":"black")}}>Payment</Link>
-    </NavItem>
+    </NavItem> */}
     <NavItem>
       <Link to={"/book-you-cab"} onClick={()=>setActive("book-you-cab")} style={{color:(active == "book-you-cab"?"red":"black")}}>Book Your Cab</Link>
     </NavItem>
   </NavbarContent>
-  <SideContent>
+  {/* <SideContent>
     <SideItems><Link to={"/register"}>Sign In</Link></SideItems>
     <SideItems><Link to={"/package-table"}>Sign Up</Link></SideItems>
-  </SideContent>
+  </SideContent> */}
 </Navbar>
     </div>
   )

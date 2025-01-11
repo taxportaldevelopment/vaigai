@@ -1,14 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Parkinsans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden;}
+.bg-color{
+  background: #282c34;
+  color: #fff;
 }
+
+/* brand-font */
+.roboto{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
 /* border own style */
 .border-bottom-own{
     border-bottom: 1px solid red;
+}
+/* letter style */
+.letter-style{
+    letter-spacing: 1px;
+    font-weight:600;
+    font-family: sans-serif;
+    font-style: italic;
+    word-spacing: 5px;
 }
 /* loading */
 .loading-icons{
@@ -88,6 +107,11 @@ body{
     right: -50px;
     top: -50px;
 } */
+ .out-description{
+    background:linear-gradient(to right,#00000050,#00000063),url(./assets/home-sec.gif);
+    background-size: cover;
+    color: #ccc;
+ }
 
 .tour-packages .image{
     width: 60px;
@@ -107,6 +131,14 @@ body{
 .gallery-section{
     background-color: var(--danger--);
 }
+/* about-banner */
+.about-banner{
+    height: 70vh;
+    background:linear-gradient(to right,#00000099,#00000097),url(./assets/about/about-banner.png);
+    background-size: cover;
+}
+
+
 /* our-service */
 .our-service ul li{
     list-style-type:disc;
@@ -133,9 +165,33 @@ body{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
+/* marquee tag */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+  }
+  
+  .marquee-item {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+  }
+  
+  .marquee-item.paused {
+    animation-play-state: paused;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(800%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+
 /* mobile-view */
-
-
 @media screen and (max-width:750px){
     .we-provide-us-home{
          width: 100% !important;
@@ -143,4 +199,12 @@ body{
     .contact-section-us .contact-fixed{
         position:static;
     }
+    @keyframes marquee {
+        0% {
+          transform: translateX(300%);
+        }
+        100% {
+          transform: translateX(-500%);
+        }
+      }
 }

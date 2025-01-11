@@ -14,7 +14,6 @@ const Footer = () => {
                         agencies in Dindigul, South India for the past few years. 
                         Tour Operators in Dindigul arranged total tour package those 
                         holiday, pilgrimage, educational tour packages etc.</p>
-                    <Link to={"/one-day-package"}><button className='btn btn-danger'>VISIT OUR TARIFF</button></Link>
                </div>
                <div className="col-md-12 col-lg-3">
                    <h5 className="text-danger">Quick Links</h5>

@@ -24,7 +24,7 @@ import slider3 from "../assets/carousel/slider-3.png";
 import Typewriter from 'typewriter-effect';
 // icons
 import { IoCarSport } from "react-icons/io5";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 const Home = () => {
   const responsive = {
     desktop: {
@@ -50,6 +50,18 @@ const Home = () => {
   }
   getRefresh()
    },[])
+
+
+
+   const [isPaused, setIsPaused] = useState(false);
+
+   const handleMouseEnter = () => {
+     setIsPaused(true);
+   };
+ 
+   const handleMouseLeave = () => {
+     setIsPaused(false);
+   };
 
 
   return (
@@ -92,11 +104,13 @@ const Home = () => {
         </button>
       </div>
       {/* Greeting to vaigai Tours and Travels */}
+      <div className="out-description py-5">
+          
       <div className="container my-4 animation-show">
-        <h2 className="text-center py-3 text-danger">
+        <h2 className="text-center py-3">
            Vaigai Tours and Travels
         </h2>
-        <p>
+        <p className="letter-style">
           vaigai tours and travels is the best tours and travels in vaigai and
           renowned travel agency in vaigai. We cherish our customers with
           quality service and you forever adore our service. We have been in
@@ -106,7 +120,7 @@ const Home = () => {
           educational, pilgrim, honeymoon, vacation trips, and corporate trips
           with premium packages.
         </p>
-        <p>
+        <p className="letter-style">
           vaigai tours and travels in vaigai have their own professional drivers,
           proficient guide, and outstanding executives. We also offer cab
           services in vaigai. We stand out among other agencies in a way that we
@@ -117,11 +131,11 @@ const Home = () => {
       </div>
 
        {/* typing */}
-       <div className="d-flex justify-content-center align-items-center py-3 my-3 h4 text-danger">
+       <div className="d-flex justify-content-center align-items-center py-5 my-3 roboto h1 text-white">
          <h2 className="p-2">VAIGAI</h2>
        <Typewriter
           options={{
-            strings: ['SUPER MARKET', " HOTEL",' RELEAX', ' CONSTRUCTIONS'],
+            strings: ['SUPER MARKET', " HOTEL",' RELAX', ' CONSTRUCTIONS'],
             autoStart: true,
             loop: true,
             delay: 75, // Typing speed
@@ -129,23 +143,12 @@ const Home = () => {
         />
           
        </div>
-      {/* we provide start */}
-      <div className="animation-show we-provide-us-home border bg-danger w-50 m-auto p-2 m-2 rounded">
-        <h5 className="text-white">
-          WE PROVIDE SAFEST & AFFORDABLE TRAVEL SERVICES
-        </h5>
-        <p className="text-white">
-          For more enquiries and details, please visit our tariff
-        </p>
-        <div className="d-flex justify-content-end">
-          <Link to={"/contact"} ><button className="btn btn-primary">VISIT THE TARIFF</button></Link>
-        </div>
       </div>
          {/* Why Choose Us */} < br></br>
-         <div className="why-choose-us p-3 my-3 animation-show">
+         <div className="why-choose-us p-3 my-2 animation-show">
                <h2 className="text-center text-danger">Why Choose Us</h2>
-               <p className="text-center text-danger px-3">At vaigai Travels, we understand that you have choices when it comes to your travel needs. <br />
-                Here's why choosing us is the best decision for a seamless and enjoyable journey.</p>
+               <p className="text-center text-danger fw-bold px-3">At vaigai Travels, we understand that you have choices when it comes to your travel needs. <br />
+                Here&apos;s why choosing us is the best decision for a seamless and enjoyable journey.</p>
 
               <div className="row">
                    <div className="col-md-12 col-lg-6">
@@ -311,8 +314,8 @@ const Home = () => {
         </div>
       </div> */}
       {/* OUR CUSTOMERS FAVOURITE DESTINATIONS */}
-      <div data-aos="flip-left" className="our-customer my-3 py-4 ">
-        <h3 className="text-center my-3 text-danger text-uppercase">dindigul nearby places</h3>
+      <div data-aos="flip-left" className="bg-color my- py-4 ">
+        <h3 className="text-center my-3 text-danger text-uppercase roboto fw-bold">dindigul nearby places</h3>
         <div className="container my-4 py-4">
           <Carousel
             responsive={responsive}
@@ -335,7 +338,6 @@ const Home = () => {
                  MADURAI
               </h5>
               <p className="py-3">தென்னிந்திய மாநிலமான தமிழ்நாட்டின் தேனி மாவட்டம், ஆண்டிப்பட்டி அருகே வைகை ஆற்றின் மீது கட்டப்பட்ட அற்புதமான மனிதனால் உருவாக்கப்பட்ட வைகை அணை.</p>
-              <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
             <div className="d-flex justify-content-center">
@@ -346,8 +348,7 @@ const Home = () => {
               <h5 className="mt-2 text-uppercase ">
                  Kodaikanal
               </h5>
-              <p className="py-3">கொடைக்கானல் ஏரி குறுகிய காலத்தில் கொடை ஏரி என்று அழைக்கப்படுகிறது. 1860-களில் மதுரை ஆட்சியர் ஹென்றி லெவிங் கொடைக்கானல் ஏரியை மேம்படுத்தும் பணியைத் தொடங்கினார்.  </p>
-              <button className="btn btn-danger mt-3">View More</button>
+              <p className="py-3">கொடைக்கானல் இந்தியாவின் தமிழ்நாட்டில் உள்ள ஒரு பிரபலமான மலைவாசஸ்தலம் ஆகும், அதன் இயற்கை அழகு, குளிர்ந்த காலநிலை மற்றும் பல பொழுதுபோக்கு நடவடிக்கைகளுக்கு பெயர் பெற்றது. </p>
               </div>
             </div>
             <div className="d-flex justify-content-center">
@@ -360,7 +361,6 @@ const Home = () => {
               </h5>
               <p className="py-3">தேனி மாவட்டத்தில் இயற்கை மாறாமல் இருக்கும் சுற்றுலா தலங்கள். 
                 நீங்கள் தேனிக்கு சென்றால் இந்த தலங்களுக்கு ஒரு முறையாவது இந்த இடங்களுக்கு சென்று வாருங்கள்.</p>
-              <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
             <div className="d-flex justify-content-center">
@@ -373,9 +373,7 @@ const Home = () => {
               </h5>
               <p className="py-3">தென்னிந்தியாவின் மிகப்பெரிய தேயிலை விளையும் பகுதியான மூணாறு, 
                 கற்பனை செய்யக்கூடிய மிக அற்புதமான அமைப்புகளுக்கு மத்தியில் கடவுளின் சொந்த 
-                நாட்டில் அமைந்துள்ளது.</p>
-              <button className="btn btn-danger mt-3">View More</button>
-              </div>
+                நாட்டில் அமைந்துள்ளது.</p>              </div>
             </div>
             <div className="d-flex justify-content-center">
             <div className="customer w-75  p-2">
@@ -388,7 +386,6 @@ const Home = () => {
               <p className="py-3">பழனி தமிழ்நாட்டின் திண்டுக்கல் மாவட்டத்தில் உள்ள ஒரு சிறிய நகரம். 
                 பழனியில் அருவி, மலை, 
                 கோயில், ஓய்வு விடுதி உள்ளிட்ட பல்வேறு சுற்றுலா தலங்கள் உள்ளன</p>
-              <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
             <div className="d-flex justify-content-center">
@@ -402,7 +399,6 @@ const Home = () => {
               <p className="py-3">சிறுமலை திண்டுக்கல்லில் இருந்து 25 கிமீ (16 மைல்) 
                 மற்றும் மதுரையில் இருந்து 40 கிமீ (25 மைல்) தொலைவில் 60,000 ஏக்கர் (200 கிமீ)
                  பரப்பளவில் அமைந்துள்ளது.</p>
-              <button className="btn btn-danger mt-3">View More</button>
               </div>
             </div>
 
@@ -411,10 +407,60 @@ const Home = () => {
         </div>
 
       {/* bber slider */}
-      <div className="container mt-4">
-      <h3 className="text-center my-3 text-danger text-uppercase py-3">POSTER</h3>
+       <hr />
+      <div className="containe mt-4">
+      <h3 className="text-center my-3 text-danger text-uppercase py-3 fw-bold roboto">POSTER</h3>
   
-        <marquee  scrollamount="20" direction="" >
+
+      <div
+      className="marquee-container d-flex"
+    >
+       {/* <div className="d-flex shadow"> */}
+       <img
+        src={brandBanner} // Replace with your image URL
+        alt="Marquee Item"
+        height={360}
+        className={`marquee-item ${isPaused ? "paused" : ""} w-100 me-2`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      />
+             <img
+        src={brandBanner1} // Replace with your image URL
+        alt="Marquee Item"
+        height={360}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className={`marquee-item ${isPaused ? "paused" : ""} w-100 me-2`}
+      />
+             <img
+        src={brandBanner2} // Replace with your image URL
+        alt="Marquee Item"
+        height={360}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className={`marquee-item ${isPaused ? "paused" : ""} w-100 me-2`}
+      />
+             <img
+        src={brandBanner3} // Replace with your image URL
+        alt="Marquee Item"
+        height={360}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className={`marquee-item ${isPaused ? "paused" : ""} w-100 me-2`}
+      />
+             <img
+        src={brandBanner4} // Replace with your image URL
+        alt="Marquee Item"
+        height={360}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className={`marquee-item ${isPaused ? "paused" : ""} w-100 me-2`}
+      />
+       {/* </div> */}
+
+    </div>
+
+        {/* <marquee  scrollamount="20" direction="" >
             <div className="d-flex justify-content-evenly">
 
              <div  className="me-4 shadow">
@@ -433,15 +479,16 @@ const Home = () => {
                  <img src={brandBanner4} height={360} alt="" />
              </div>
             </div>
-        </marquee>
+        </marquee> */}
 
       </div>
 
       </div>
       {/* Our Services */}
+       <div className="bg-color">
       <div data-aos="flip-right" className="container p-5">
-        <h2 className="text-center py-3 text-danger">Our Services</h2>
-        <div className="row our-service">
+        <h2 className="text-center py-3 text-danger roboto fw-bold">Our Services</h2>
+        <div className="row our-service fw-bold">
           <div className="col-md-12 col-lg-3">
             <div>
               <ul type={"disc"}>
@@ -494,6 +541,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+       </div>
     </div>
   );
 };

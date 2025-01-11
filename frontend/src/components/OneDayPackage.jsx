@@ -52,8 +52,8 @@ const OneDayPackage = () => {
            getRefresh()
       },[])
   return (
-    <div className='container-fluid my-4'>
-        <h2 className='text-center'>ONE DAY TOUR PACKAGES</h2>
+    <div className='container-fluid py-5 bg-dark text-white'>
+        <h2 className='text-center py-3'>ONE DAY TOUR PACKAGES</h2>
         <div className="row">
              <div className="col-md-12 col-lg-3">
                   <div className="one-day-packgae-left-side m-2">

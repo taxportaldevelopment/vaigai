@@ -22,6 +22,7 @@ import restaurant2 from "../assets/construction/restaurant-2.jpg";
   //supermarket
 import supermarket1 from "../assets/construction/supermarket-1.jpg";
 import supermarket2 from "../assets/construction/supermarket-2.jpg";
+import { Link } from 'react-router-dom';
 const About = () => {
     const [active,setActive] = useState("about us");
     const [images,setImages] = useState();
@@ -71,8 +72,18 @@ const About = () => {
   return (
     <div>
         {/* vaigai TOURS TRAVELS */}
-        <div className="vaigai-about-section my-4 p-2 ">
-             
+        <div className="vaigai-about-section ">
+              
+              <div className="about-banner d-flex justify-content-center align-items-center">
+                      <div className=' text-white'>
+                           <h2 className='text-center'>About</h2>
+
+                          <p className='fw-bold h5 d-flex'>
+                          <Link to="/book-you-cab" className='text-white'>Book Your Cab</Link> / 
+                          <Link to="/contact" className='text-white ms-2'>Contact</Link>
+                          </p>
+                      </div>
+              </div>
 
               {/* <div className="container-fluid about-section ">
                    <div className='d-flex justify-content-center'>
@@ -96,7 +107,7 @@ const About = () => {
                    </div>
               </div> */}
                 <div className="our-bussiness-contact p-2">
-                <h2 className='text-center py-4 opacity-75 text-danger'>VAIGAI ABOUT SECTION</h2>
+                <h2 className='text-center py-4 opacity-75 text-danger'>VAIGAI ABOUT</h2>
               <div className=" container ">
                    <h4 className='text-center letter-space text-warning'>___OUR BUSSINESS___</h4>
                     <div className="releax py-3">

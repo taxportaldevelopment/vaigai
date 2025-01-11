@@ -107,7 +107,7 @@ const Home = () => {
       <div className="out-description py-5">
           
       <div className="container my-4 animation-show">
-        <h2 className="text-center py-3">
+        <h2 className="text-center text-danger py-3">
            Vaigai Tours and Travels
         </h2>
         <p className="letter-style">
@@ -131,8 +131,8 @@ const Home = () => {
       </div>
 
        {/* typing */}
-       <div className="d-flex justify-content-center align-items-center py-5 my-3 roboto h1 text-white">
-         <h2 className="p-2">VAIGAI</h2>
+       <div className="d-flex justify-content-center align-items-center  my-3 h1 text-danger">
+         <span className="mx-2">VAIGAI</span>
        <Typewriter
           options={{
             strings: ['SUPER MARKET', " HOTEL",' RELAX', ' CONSTRUCTIONS'],
@@ -206,7 +206,7 @@ const Home = () => {
 
       {/* tour packages */}
       <div data-aos="fade-up" className="container-fluid tour-packages py-5 tour-package">
-        <h2 className="text-center">OUR TOUR PACKAGES</h2>
+        <h2 className="text-center roboto text-danger">OUR TOUR PACKAGES</h2>
         <div className="row">
           <div className="col-md-12 col-lg-3 p-1 mt-4">
             <div className="p-2 items-col d-flex justify-content-between align-items-center">
@@ -416,14 +416,6 @@ const Home = () => {
       className="marquee-container d-flex"
     >
        {/* <div className="d-flex shadow"> */}
-       <img
-        src={brandBanner} // Replace with your image URL
-        alt="Marquee Item"
-        height={360}
-        className={`marquee-item ${isPaused ? "paused" : ""} w-100 me-2`}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      />
              <img
         src={brandBanner1} // Replace with your image URL
         alt="Marquee Item"

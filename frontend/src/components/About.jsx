@@ -23,6 +23,13 @@ import restaurant2 from "../assets/construction/restaurant-2.jpg";
 import supermarket1 from "../assets/construction/supermarket-1.jpg";
 import supermarket2 from "../assets/construction/supermarket-2.jpg";
 import { Link } from 'react-router-dom';
+// image
+import image1 from "../assets/about/img/img-1.jpeg";
+import image2 from "../assets/about/img/img-2.jpeg";
+import image3 from "../assets/about/img/img-3.jpeg";
+import image4 from "../assets/about/img/img-4.jpeg";
+
+
 const About = () => {
     const [active,setActive] = useState("about us");
     const [images,setImages] = useState();
@@ -85,6 +92,59 @@ const About = () => {
                       </div>
               </div>
 
+              {/* owner-section */}
+               <div className="owner-section p-5 bg-dark">
+                       <h1 className='text-white text-center py-4'>VAIGAI OWNER&apos;S</h1>
+                     <div className="container">
+                            <div className="row d-flex justify-content-evenly">
+                                  <div className="col-md-12 col-lg-3 mt-5">
+                                       <div className="owner-sec p-1 border button-85">
+                                             <div className="image">
+                                                   <div className='my-3'>
+                                                       <img src={image1} className='w-100 p-3' alt="" />
+                                                   </div>
+                                                   <div className="title bg-secondary py-2 text-white">
+                                                   <h6 className='text-center'><span>YASAR.A </span>VAIGAI CONTRUCTION</h6>
+                                                        <p className='fw-bold text-center '>Er, T.Yasar Arfad. B.E,D.C.A.D</p>
+                                                   </div>
+                                             </div>
+                                       </div>
+                                  </div>
+                                  <div className="col-md-12 col-lg-3 mt-5">
+                                       <div className="owner-sec p-1 border button-85">
+                                             <div className="image">
+                                                   <div className='my-3'>
+                                                       <img src={image2} className='w-100 p-3' alt="" />
+                                                   </div>
+                                                   <div className="title bg-secondary py-2 text-white">
+                                                         <h6 className='text-center'>SATHAM Tour and travel and relax</h6>
+                                                        {/* <p className='fw-bold text-center '>Er, T.Yasar Arfad. B.E,D.C.A.D</p> */}
+                                                   </div>
+                                             </div>
+                                       </div>
+                                  </div>
+                                  <div className="col-md-12 col-lg-3 mt-5">
+                                       <div className="owner-sec p-1 border button-85">
+                                             <div className="image">
+                                                   <div className='my-3'>
+                                                       <img src={image3} className='w-100 p-3' alt="" />
+                                                   </div>
+                                                   <div className="title bg-secondary py-2 text-white">
+                                                         <h6 className='text-center'>Navas sherif HOTEL </h6>
+                                                        {/* <p className='fw-bold text-center '>Er, T.Yasar Arfad. B.E,D.C.A.D</p> */}
+                                                   </div>
+                                             </div>
+                                       </div>
+                                  </div>
+                            </div>
+                            <div className="image-sec p-4">
+                                 <div className="image-image button-85 card">
+                                        <img src={image4} className='w-100' alt="" />
+                                 </div>
+                            </div>
+                     </div>
+               </div>
+
               {/* <div className="container-fluid about-section ">
                    <div className='d-flex justify-content-center'>
                    <div className="btn-section">
@@ -111,7 +171,7 @@ const About = () => {
               <div className=" container ">
                    <h4 className='text-center letter-space text-warning'>___OUR BUSSINESS___</h4>
                     <div className="releax py-3">
-                      <h2>Releax</h2>
+                      <h2 className='roboto fw-bold text-danger'>Relax</h2>
                     <div className="row">
                          <div className="col-md-12 col-lg-5">
                             <img src={tea} className='w-100 p-3' alt="" />
@@ -143,7 +203,7 @@ const About = () => {
                     </div>
                     {/* construction */}
                     <div className="construction py-3"  data-aos="flip-right">
-                      <h2 className='text-uppercase'>construction</h2>
+                      <h2 className='text-uppercase text-color'>construction</h2>
                     <div className="row">
                          <div className="col-md-12 col-lg-5">
                             <img src={construction1} className='w-100 p-3' alt="" />

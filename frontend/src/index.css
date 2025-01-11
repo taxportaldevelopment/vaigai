@@ -10,7 +10,9 @@ body{
   background: #282c34;
   color: #fff;
 }
-
+.text-color{
+    color:#0d1b2a;
+}
 /* brand-font */
 .roboto{
     font-family: "Roboto", serif;
@@ -107,11 +109,9 @@ body{
     right: -50px;
     top: -50px;
 } */
- .out-description{
-    background:linear-gradient(to right,#00000050,#00000063),url(./assets/home-sec.gif);
-    background-size: cover;
-    color: #ccc;
- }
+.out-description{
+   background: url(./assets/bg-shape-04.png);
+}
 
 .tour-packages .image{
     width: 60px;

@@ -27,10 +27,10 @@ const Header = () => {
                <p className="text-white"><span><MdOutlineMail className="text-whiet" /></span><span><a className="text-white" href="mailto:sathamtaj1111@gmail.com"> sathamtaj1111@gmail.com</a></span><br /> <span><FaPhone /> +91 8489946488</span></p>
     
           </div>
-          <div className="right-site">
+          <div className="right-site"> 
           <CiFacebook className="px-1 h4 bg-white  ms-1 rounded" /> 
           <CiTwitter className="px-1 h4 bg-white  ms-1 rounded" />
-          <FaInstagram className="px-1 h4 bg-white  ms-1 rounded" />
+           <a href="https://www.instagram.com/tn57_vaigai_travels_official/"><FaInstagram className="px-1 h4 bg-white  ms-1 rounded text-dark" /></a>
           </div>
       </div>
 
@@ -67,14 +67,14 @@ const Header = () => {
       <Link to={"/releax"} onClick={()=>setActive("releax")} style={{color:(active == "Tour Places"?"red":"black")}}>Releax</Link>
       </NavItem>
     </DropDown> */}
-    <NavItem>
-      <Link to={"/contact"} onClick={()=>setActive("contact")} style={{color:(active == "contact"?"red":"black")}}>Contact</Link>
-    </NavItem>
     {/* <NavItem>
       <Link to={"/payment"} onClick={()=>setActive("Payment")} style={{color:(active == "Payment"?"red":"black")}}>Payment</Link>
     </NavItem> */}
     <NavItem>
       <Link to={"/book-you-cab"} onClick={()=>setActive("book-you-cab")} style={{color:(active == "book-you-cab"?"red":"black")}}>Book Your Cab</Link>
+    </NavItem>
+    <NavItem>
+      <Link to={"/contact"} onClick={()=>setActive("contact")} style={{color:(active == "contact"?"red":"black")}}>Contact</Link>
     </NavItem>
   </NavbarContent>
   {/* <SideContent>

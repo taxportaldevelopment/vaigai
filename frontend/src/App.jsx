@@ -55,8 +55,8 @@ function App() {
                       </div>
                          </div>
                       </div>
-                      <div className="share-link  d-flex justify-content-center align-items-center text-white">
-                           <FaPlus className="h4 media-hover" />
+                      <div className="share-link h4 d-flex justify-content-center align-items-center text-white">
+                           <FaPlus className=" media-hover" />
                       </div>
                 </div>
           </div>

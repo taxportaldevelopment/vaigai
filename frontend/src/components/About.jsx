@@ -93,8 +93,8 @@ const About = () => {
               </div>
 
               {/* owner-section */}
-               <div className="owner-section p-5 bg-dark">
-                       <h1 className='text-white text-center py-4'>VAIGAI OWNER&apos;S</h1>
+               <div className="owner-section p-5 bg-light">
+                       <h1 className=' text-center py-4'>VAIGAI OWNER&apos;S</h1>
                      <div className="container">
                             <div className="row d-flex justify-content-evenly">
                                   <div className="col-md-12 col-lg-3 mt-5">

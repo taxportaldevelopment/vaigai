@@ -68,13 +68,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -90,13 +90,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -112,13 +112,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -136,13 +136,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -158,13 +158,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -180,13 +180,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -204,13 +204,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -226,13 +226,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -248,13 +248,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -273,13 +273,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -295,13 +295,13 @@ export const OneDayPackages = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -328,13 +328,13 @@ export const HolidayTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -352,13 +352,13 @@ export const HolidayTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div>
-              <Link to={"/contact"}>
+              <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -378,13 +378,13 @@ export const HolidayTour = ()=>{
                     <FaStar className="h5 text-warning" />
                  </div>
               <div className="btn-section">
-              <Link to={"/contact"}>
+              <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -411,13 +411,13 @@ export const Honeymoon = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -434,13 +434,13 @@ export const Honeymoon = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -457,13 +457,13 @@ export const Honeymoon = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -489,13 +489,13 @@ export const Pilgrimage = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -512,13 +512,13 @@ export const Pilgrimage = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -535,13 +535,13 @@ export const Pilgrimage = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -560,13 +560,13 @@ export const Pilgrimage = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -583,13 +583,13 @@ export const Pilgrimage = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -606,13 +606,13 @@ export const Pilgrimage = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -638,13 +638,13 @@ export const MaduraiTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -660,13 +660,13 @@ export const MaduraiTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -682,13 +682,13 @@ export const MaduraiTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -706,13 +706,13 @@ export const MaduraiTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -728,13 +728,13 @@ export const MaduraiTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -750,13 +750,13 @@ export const MaduraiTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -774,13 +774,13 @@ export const MaduraiTour = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -805,13 +805,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -827,13 +827,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -849,13 +849,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -873,13 +873,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -895,13 +895,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -917,13 +917,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -941,13 +941,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -963,13 +963,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -985,13 +985,13 @@ export const Rameshwarem = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1016,13 +1016,13 @@ export const Kanyakumari = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1038,13 +1038,13 @@ export const Kanyakumari = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1060,13 +1060,13 @@ export const Kanyakumari = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1084,13 +1084,13 @@ export const Kanyakumari = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1106,13 +1106,13 @@ export const Kanyakumari = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1128,13 +1128,13 @@ export const Kanyakumari = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1152,13 +1152,13 @@ export const Kanyakumari = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1183,13 +1183,13 @@ export const Thanjavur = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1205,13 +1205,13 @@ export const Thanjavur = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>
@@ -1227,13 +1227,13 @@ export const Thanjavur = ()=>{
                     <FaStar className="h5 text-warning" />
                     <FaStar className="h5 text-warning" />
                  </div><br />
-                 <Link to={"/contact"}>
+                 <Link to={"/book-you-cab"}>
               <div className="btn-section">
               <button className="button-82-pushable" role="button">
               <span className="button-82-shadow"></span>
               <span className="button-82-edge"></span>
               <span className="button-82-front text">
-              Contact
+              Book Now
   </span>
 </button>
               </div>

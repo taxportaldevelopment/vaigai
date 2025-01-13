@@ -54,7 +54,7 @@ const Header = () => {
       <Link to={"/about"} onClick={()=>setActive("about")} style={{color:(active == "about"?"red":"black")}}>About</Link>
     </NavItem>
     <NavItem>
-        <Link to={"/one-day-package"} onClick={()=>setActive("One Day Package")} style={{color:(active == "One Day Package"?"red":"black")}}>One Day Package</Link>
+        <Link to={"/one-day-package"} onClick={()=>setActive("One Day Package")} style={{color:(active == "One Day Package"?"red":"black")}}>Package</Link>
       </NavItem>
     {/* <DropDown style={{ width: "170px" }} label="Services">
       <NavItem>

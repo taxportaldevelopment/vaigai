@@ -2,7 +2,7 @@ import {useState} from "react";
 import { Link ,useNavigate} from "react-router-dom";
 import DatePicker from "react-multi-date-picker";
 import images from "../assets/qr-code-1.jpeg";
-import images1 from "../assets/footertop.png"
+import images1 from "../assets/footertop1.png"
 import brandPhoto from "../assets/qr-code-2.jpeg";
 import { RiFlightLandFill } from "react-icons/ri";
 // images
@@ -310,7 +310,7 @@ const BookYourCab = () => {
           <div className="airport-pickup-drop">
                       <div className="title py-3 d-flex justify-content-center align-items-center">
                           <IoCarSportSharp  className="h1 mx-2"/>
-                      <h1>AIRPORT PICKUP AND DROP</h1>
+                      <h1 className="text-danger roboto fw-bold">AIRPORT PICKUP AND DROP</h1>
                       </div>
                  <div className="container">
                       <div className="row">
@@ -393,7 +393,7 @@ const BookYourCab = () => {
           <div className="col-md-12 col-lg-9 my-3 p-2">
             <div className="book-form p-2">
               <h2 className="roboto">BOOKING YOUR CAB</h2>
-              <form onSubmit={onSubmit} >
+              <form onSubmit={onSubmit} className="book-your-cab-form">
                 <div className="form-group border px-3 rounded">
                   <DatePicker
                     format="DD/MM/YYYY"
@@ -422,18 +422,12 @@ const BookYourCab = () => {
                      <select name="select Vehicle Type" required className="form-control" id="">
                          <option value="">--Select Car Type*</option>
                          <option value="Maruti Suzuki Dzire">Maruti Suzuki Dzire 4+1 SEAT</option>
-                         <option value="TAVERA">TAVERA  8+1 SEAT</option>
+                         <option value="TAVERA">TAVERA  9+1 SEAT</option>
                          <option value="INNOVA">INNOVA 7+1 SEAT</option>
-                         <option value="ERTIGA">ERTIGA 7+1 seat</option>
+                         <option value="ERTIGA">ERTIGA 6+1 seat</option>
                          <option value="TEMPO">TEMPO  14+1 SEAT</option>
                          <option value="COACH">COACH 21+1 SEAT</option>
                      </select>
-                </div>
-                <div className="form-group my-3">
-                      <input type="number" 
-                      placeholder="Number Of Person..."
-                        name="Number Of Person" required className="form-control"
-                      />
                 </div>
                 <div className="form-group my-3">
                      <input type="text"
@@ -501,7 +495,7 @@ const BookYourCab = () => {
       </div>
       <div data-aos="zoom-out-up" className="image">
         <div className="container-fluid">
-          <img src={images1} className="w-100" alt="" />
+          <img src={images1} className="w-100 book-your-cab-footer-img" alt="" />
 
         </div>
       </div>

@@ -94,7 +94,7 @@ const About = () => {
 
               {/* owner-section */}
                <div className="owner-section p-5 bg-light">
-                       <h1 className=' text-center py-4'>VAIGAI OWNER&apos;S</h1>
+                       <h1 className=' text-center py-4 text-danger'>VAIGAI OWNER&apos;S</h1>
                      <div className="container">
                             <div className="row d-flex justify-content-evenly">
                                   <div className="col-md-12 col-lg-3 mt-5">
@@ -138,8 +138,14 @@ const About = () => {
                                   </div>
                             </div>
                             <div className="image-sec p-4">
-                                 <div className="image-image button-85 card">
-                                        <img src={image4} className='w-100' alt="" />
+                                 <div className="image-imag d-flex justify-content-center align-items-center">
+                                       <div className="">
+                                          <h2 className='text-center text-danger'>Owner Of The Vaigai</h2>
+                                          <div className='overflow-hidden rounded'>
+                                         <img src={image4} className='vaigai-main-owner p-2' alt="" />
+                                          </div>
+                                          <h4 className='text-center py-2 px-4 bg-dark text-white text-uppercase' >Tajdeen</h4>
+                                       </div>
                                  </div>
                             </div>
                      </div>

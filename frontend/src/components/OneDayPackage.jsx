@@ -53,7 +53,7 @@ const OneDayPackage = () => {
       },[])
   return (
     <div className='container-fluid py-5 bg-dark text-white'>
-        <h2 className='text-center py-3'>ONE DAY TOUR PACKAGES</h2>
+        <h2 className='text-center py-3'>TOUR PACKAGES</h2>
         <div className="row">
              <div className="col-md-12 col-lg-3">
                   <div className="one-day-packgae-left-side m-2">

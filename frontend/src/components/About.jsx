@@ -1,7 +1,4 @@
-import {useEffect, useState} from 'react'
-import img1 from "../assets/about/a1.jpg";
-import img2 from "../assets/about/a2.jpg";
-import img3 from "../assets/about/a3.jpg";
+import {useEffect} from 'react'
 import about1 from "../assets/about/aboutus.png"
 import about2 from "../assets/about/mahindra_vento.png"
 import about3 from "../assets/about/cars.png"
@@ -11,65 +8,22 @@ import { IoIosPeople } from "react-icons/io";
 import { FaTruckFront } from "react-icons/fa6";
 import { BiMale } from "react-icons/bi";
 // images
-import releax from "../assets/releax/service-1.jpg";
 import releax1 from "../assets/releax/img/img-13.png"
 import construction1 from "../assets/construction/construction-1.jpg";
 import construction2 from "../assets/construction/construction-2.jpg";
 import tea from "../assets/construction/tea-tn.jpg";
 import biritani from "../assets/construction/chicken1.png";
-import restaurant1 from "../assets/construction/restaurant-1.jpg";
 import restaurant2 from "../assets/construction/restaurant-2.jpg";
   //supermarket
 import supermarket1 from "../assets/construction/supermarket-1.jpg";
 import supermarket2 from "../assets/construction/supermarket-2.jpg";
-import { Link } from 'react-router-dom';
-// image
-import image1 from "../assets/about/img/img-1.jpeg";
-import image2 from "../assets/about/img/img-2.jpeg";
-import image3 from "../assets/about/img/img-3.jpeg";
-import image4 from "../assets/about/img/img-4.jpeg";
 
 
 const About = () => {
-    const [active,setActive] = useState("about us");
-    const [images,setImages] = useState();
-    const [title,setTitle] = useState(1);
-    const [content,setContent] = useState(1);
 
-  const aboutCartDetails = [
-       {
-        id:1,
-        imgage:img1,
-        title:"Vaigai tours and travels are the best tour operators in Dindigul. We are providing you the customized services in Dindigul and south India. We are specialized in offering all kinds of tour packages from educational tour to pilgrim tour.",
-        content:"We have been venturing in this field for the last 20 years, blooming from 2000, and are rendering our heartfelt services to many happy customers. We are so pleased to fulfill our customer’s requirements."
-       },
-       {
-        id:2,
-        imgage:img2,
-        title:"We assure that we will make the visitors to feel more than the comfort level. Personalized service is our specialty.",
-        content:"We believe in quality service and we guarantee good value for your money and complete satisfaction of its customer is the motto of our company which is being accomplished with the help of most competent pool of human resources.In order to provide complete customer satisfaction, we offer a comprehensive range of travel and tourism related service that includes A surplus surprise is waiting for you in Dindigul Tours Travels"
-       },
-       {
-        id:3,
-        imgage:img3,
-        title:"Services We are a 360 degree travel solution provider",
-        content:"Our endeavor is to continuously provide the best in class travel services to our customers so that they can look forward to traveling with us again and again. Dindigul Tours Travels help you in traveling and guiding you to see this beautiful places."
-       },
-  ]  
-
-  const onChange = (event,id)=>{
-        setActive(event)
-       const store = aboutCartDetails.find(item => item.id == id);
-       setTitle(store.title)
-       setContent(store.content)
-       setImages(store.imgage)
-  }
 
     useEffect(()=>{
-        const store = aboutCartDetails.find(item => item.id == 1);
-        setTitle(store.title)
-        setContent(store.content)
-        setImages(store.imgage)
+
         function getRefresh(){
           window.scrollTo(0, 0);
       }
@@ -83,97 +37,14 @@ const About = () => {
               
               <div className="about-banner d-flex justify-content-center align-items-center">
                       <div className=' text-white'>
-                           <h2 className='text-center'>About</h2>
-
-                          <p className='fw-bold h5 d-flex'>
-                          <Link to="/book-you-cab" className='text-white'>Book Your Cab</Link> / 
-                          <Link to="/contact" className='text-white ms-2'>Contact</Link>
-                          </p>
+                           <h2 className='text-center'>About of</h2>
+                           <h3>VAIGAI GROUPS</h3>
                       </div>
               </div>
 
-              {/* owner-section */}
-               <div className="owner-section p-5 bg-light">
-                       <h1 className=' text-center py-4 text-danger'>VAIGAI OWNER&apos;S</h1>
-                     <div className="container">
-                            <div className="row d-flex justify-content-evenly">
-                                  <div className="col-md-12 col-lg-3 mt-5">
-                                       <div className="owner-sec p-1 border button-85">
-                                             <div className="image">
-                                                   <div className='my-3'>
-                                                       <img src={image1} className='w-100 p-3' alt="" />
-                                                   </div>
-                                                   <div className="title bg-secondary py-2 text-white">
-                                                   <h6 className='text-center'><span>YASAR.A </span>VAIGAI CONTRUCTION</h6>
-                                                        <p className='fw-bold text-center '>Er, T.Yasar Arfad. B.E,D.C.A.D</p>
-                                                   </div>
-                                             </div>
-                                       </div>
-                                  </div>
-                                  <div className="col-md-12 col-lg-3 mt-5">
-                                       <div className="owner-sec p-1 border button-85">
-                                             <div className="image">
-                                                   <div className='my-3'>
-                                                       <img src={image2} className='w-100 p-3' alt="" />
-                                                   </div>
-                                                   <div className="title bg-secondary py-2 text-white">
-                                                         <h6 className='text-center'>SATHAM Tour and travel and relax</h6>
-                                                        {/* <p className='fw-bold text-center '>Er, T.Yasar Arfad. B.E,D.C.A.D</p> */}
-                                                   </div>
-                                             </div>
-                                       </div>
-                                  </div>
-                                  <div className="col-md-12 col-lg-3 mt-5">
-                                       <div className="owner-sec p-1 border button-85">
-                                             <div className="image">
-                                                   <div className='my-3'>
-                                                       <img src={image3} className='w-100 p-3' alt="" />
-                                                   </div>
-                                                   <div className="title bg-secondary py-2 text-white">
-                                                         <h6 className='text-center'>Navas sherif HOTEL </h6>
-                                                        {/* <p className='fw-bold text-center '>Er, T.Yasar Arfad. B.E,D.C.A.D</p> */}
-                                                   </div>
-                                             </div>
-                                       </div>
-                                  </div>
-                            </div>
-                            <div className="image-sec p-4">
-                                 <div className="image-imag d-flex justify-content-center align-items-center">
-                                       <div className="">
-                                          <h2 className='text-center text-danger'>Owner Of The Vaigai</h2>
-                                          <div className='overflow-hidden rounded'>
-                                         <img src={image4} className='vaigai-main-owner p-2' alt="" />
-                                          </div>
-                                          <h4 className='text-center py-2 px-4 bg-dark text-white text-uppercase' >Tajdeen</h4>
-                                       </div>
-                                 </div>
-                            </div>
-                     </div>
-               </div>
-
-              {/* <div className="container-fluid about-section ">
-                   <div className='d-flex justify-content-center'>
-                   <div className="btn-section">
-                        <button className='text-uppercase text-white' style={{backgroundColor:(active == "about us"?"#00bbf9":"#dc2f02")}} onClick={()=>onChange("about us",1)}>about us</button>
-                        <button className='text-uppercase text-white' style={{backgroundColor:(active == "the mission"?"#00bbf9":"#dc2f02")}} onClick={()=>onChange("the mission",2)}>the mission</button>
-                        <button className='text-uppercase text-white' style={{backgroundColor:(active == "our strategy"?"#00bbf9":"#dc2f02")}} onClick={()=>onChange("our strategy",3)}>our strategy</button>
-                   </div>
-
-                   </div>
-                   <div className="row">
-                       <div className="col-md-12 col-lg-5 p-3">
-                            <img src={images} className='w-100' alt="" />
-                       </div>
-                       <div className="col-md-12 col-lg-7">
-                            <div className='p-4'>
-                                 <h6>{title}</h6>
-                                 <p className='opacity-50'>{content}</p>
-                            </div>
-                       </div>
-                   </div>
-              </div> */}
+          
                 <div className="our-bussiness-contact p-2">
-                <h2 className='text-center py-4 opacity-75 text-danger'>VAIGAI ABOUT</h2>
+                <h2 className='text-center py-4 opacity-75 text-danger special-font'>VAIGAI ABOUT</h2>
               <div className=" container ">
                    <h4 className='text-center letter-space text-warning'>___OUR BUSSINESS___</h4>
                     <div className="releax py-3">
@@ -184,21 +55,22 @@ const About = () => {
                          </div>
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
-                                 <h5 className='text-danger'>தேநீர் கடை</h5>
-                             <p className='letter-space opacity-50'><strong>வைகை</strong> கடைக்கு வரவேற்கிறோம் — ஒவ்வொரு சிப்பும் ஒரு கதை சொல்லும்! மலைகளில் இருந்து தேர்ந்தெடுக்கப்பட்ட, கவனத்துடன் கலந்து, அன்புடன் பரிமாறப்படும் சிறந்த தேநீர்களை ஆராயுங்கள். ஒவ்வொரு கோப்பையிலும் பாரம்பரியம், சுவை மற்றும் அமைதியை அனுபவியுங்கள்."</p>
                             <h5 className='opacity-50'>About Us Section</h5>
-                            <p className='letter-space opacity-50'>"At <strong>Vaigai</strong> , we believe that tea is more than a beverage; it's a culture, a connection, and a comfort. Founded in [year], we source premium teas from across the globe and infuse them with local traditions. From refreshing green teas to robust chai, each cup is a journey of flavors waiting to be explored."</p>
+                            <p className='letter-space opacity-50'>&quot;At <strong>Vaigai Relax </strong>Since 2000, Vaigai Relax has been a cherished spot in the heart of Dindigul district, Begambur. Known for our iconic boiler tea and coffee, we proudly serve our customers 24/7. With two convenient branches—one at Arasamaram Street and the other near the Madurai Bus Stop in Begambur —we are always within your reach. <br></br>Our menu offers a variety of snacks, including crispy vadai, flavorful masal vadai, bonda, pachi, and samosas. In the evenings, our special chicken samosa, egg samosa, and freshly prepared vadai are particularly popular.<br></br> Whether you’re stopping by for a quick refreshment or a relaxing break, Vaigai Relax promises to make every visit memorable with our delicious offerings and warm hospitality.<br></br> &quot;</p>
+
                               </div>
                          </div>
                    </div>
                    <div  data-aos="flip-right" className="row">
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
-                                 <h5 className='text-danger'>Product Descriptions</h5>
+                                 <h5 className='text-danger'>Product Descriptions</h5><br></br>
                                 <ul type="circle">
-                                   <li><strong>Masala Chai</strong>: "A rich blend of aromatic spices and strong black tea, our Masala Chai warms the heart and soul. Perfect for any time of day."</li>
-                                   <li><strong>Green Tea</strong>: "Light, refreshing, and full of antioxidants, our green tea is a perfect companion for moments of calm."</li>
-                                  <li><strong>Herbal Infusions</strong>: "Caffeine-free and bursting with natural flavors — our herbal teas bring the soothing power of nature to your cup."</li>
+                                   <li><strong>Boiler Tea</strong>: &quot;Enjoy a refreshing and flavorful boiled tea, made with premium leaves for the perfect blend of aroma and taste.&quot;</li><br></br>
+                                   <li><strong>Coffee</strong>: &quot;Savor our rich and aromatic coffee, crafted for coffee lovers who appreciate a bold and robust flavor.&quot;</li> <br></br>
+                                   <li><strong>Snacks</strong>: &quot;Delight in a variety of hot, savory snacks, including Samosas, Bajji, Masala Vadai, Bonda, available in both sweet and spicy options. Perfect for any time of day!&quot;</li> <br></br>
+                                   <li><strong>Biscuits, Buns, & Juices</strong>: &quot;Enjoy our freshly baked biscuits and buns, paired with refreshing juices. Always fresh and available 24/7 for your convenience.&quot;</li><br></br>
+
                                 </ul>
                             </div>
                          </div>
@@ -217,21 +89,21 @@ const About = () => {
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
                                  <h5 className='text-danger text-uppercase'>construction</h5>
-                             <p className='letter-space opacity-50'>"வைகைக்கு வரவேற்கிறோம் - எதிர்காலத்தை உருவாக்குதல், ஒரு நேரத்தில் ஒரு செங்கல். கருத்து முதல் நிறைவு வரை, உங்கள் தேவைகளுக்கு ஏற்ப புதுமையான, உயர்தர கட்டுமான தீர்வுகளை நாங்கள் வழங்குகிறோம்"</p>
+                             {/* <p className='letter-space opacity-50'>"வைகைக்கு வரவேற்கிறோம் - எதிர்காலத்தை உருவாக்குதல், ஒரு நேரத்தில் ஒரு செங்கல். கருத்து முதல் நிறைவு வரை, உங்கள் தேவைகளுக்கு ஏற்ப புதுமையான, உயர்தர கட்டுமான தீர்வுகளை நாங்கள் வழங்குகிறோம்"</p> */}
                             <h5>About Us Section</h5>
-                            <p className='letter-space opacity-50'>"At <strong>vaigai</strong>, we take pride in delivering exceptional construction services. With [2010] of experience, our skilled team specializes in residential, commercial, and industrial projects. We are committed to quality, safety, and sustainability, ensuring every project exceeds expectations."</p>
+                            <p className='letter-space opacity-50'>&quot;At <strong>vaigai construction </strong>We build multi-family and affordable housing communities, industrial facilities, public and private healthcare facilities, fitness centers and office buildings. We improve the supply chain management process, increase operational efficiencies and build environments that foster creativity. Our commitment to sustainable construction helps improve the communities in which we build. The structures we create provide our clients with more than just buildings – we deliver environments that help them achieve their goals. <strong>We are built on a foundation of quality workmanship and responsive service.</strong>&quot;</p>
                               </div>
                          </div>
                    </div>
                    <div className="row">
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
-                                 <h5 className='text-danger'>Service Descriptions</h5>
+                                 <h5 className='text-danger'>Service Descriptions</h5><br></br>
                                 <ul type="circle" className='opacity-50'>
-                                   <li><strong>Residential Construction</strong>: "Turn your dream home into reality. We build durable, beautiful, and functional homes designed to suit your lifestyle."</li>
-                                   <li><strong>Commercial Construction</strong>: "We deliver modern, efficient commercial spaces, from offices to retail outlets, built to drive success."</li>
-                                  <li><strong>Renovation Services</strong>: "Transform your existing property with our comprehensive renovation services. Quality upgrades tailored to your vision."</li>
-                                  <li><strong>Infrastructure Projects</strong>: "Supporting communities with top-tier infrastructure — roads, bridges, and public facilities built to last."</li>
+                                   <li><strong>Residential Construction</strong>: &quot;Turn your dream home into reality. We build durable, beautiful, and functional homes designed to suit your lifestyle.&quot;</li><br></br>
+                                   <li><strong>Commercial Construction</strong>: &quot;We deliver modern, efficient commercial spaces, from offices to retail outlets, built to drive success.&quot;</li><br></br>
+                                  <li><strong>Renovation Services</strong>: &quot;Transform your existing property with our comprehensive renovation services. Quality upgrades tailored to your vision.&quot;</li><br></br>
+                                  <li><strong>Infrastructure Projects</strong>: &quot;Supporting communities with top-tier infrastructure — roads, bridges, and public facilities built to last.&quot;</li><br></br>
                                 </ul>
                             </div>
                          </div>
@@ -240,38 +112,9 @@ const About = () => {
                          </div>
                    </div>
                     </div>
-                    {/*Hotel  */}
-                    {/* <div className="hotel py-3">
-                       <h2>HOTEL</h2>
-                    <div className="row">
-                         <div className="col-md-12 col-lg-5">
-                            <img src={hotel1} className='w-100 p-3' alt="" />
-                         </div>
-                         <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
-                              <div>
-                                 <h5 className='text-danger text-uppercase'>Hotel</h5>
-                             <p className='letter-space opacity-50'>"Welcome to <strong>Vaigai Hotel</strong> — your home away from home! Experience warm hospitality, luxurious comfort, and authentic flavors in the heart of Dindigul. Whether you’re here for business or leisure, we make every stay unforgettable."</p>
+   
+                             <p className='letter-space opacity-50'>&quot;Welcome to <strong>Vaigai Hotel</strong> — your home away from home! Experience warm hospitality, luxurious comfort, and authentic flavors in the heart of Dindigul. Whether you’re here for business or leisure, we make every stay unforgettable.&quot;</p>
                             <h5>About Us Section</h5>
-                            <p className='letter-space opacity-50'>"At Vaigai Hotel, we blend tradition with modern luxury to offer an exceptional experience. Located in Vaigai Relax, madurai road, Begambur, dindigul 624002 , our hotel has been a trusted choice for travelers since [2010]. With spacious rooms, world-class amenities, and personalized service, we ensure that every guest enjoys comfort and convenience. Discover the true essence of hospitality with us."</p>
-                              </div>
-                         </div>
-                   </div>
-                   <div className="row">
-                         <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
-                              <div>
-                                 <h5 className='text-danger'>Room Descriptions</h5>
-                                <ul type="circle">
-                                   <li><strong>Deluxe Room</strong>:  "Elegant and spacious, our Deluxe Rooms offer modern amenities and a relaxing ambiance — perfect for unwinding after a long day."</li>
-                                   <li><strong>Suite</strong>: "Indulge in luxury with our beautifully appointed suites. Enjoy separate living areas, premium facilities, and stunning views."</li>
-                                  <li><strong>Family Room</strong>:"Designed for comfort and convenience, our Family Rooms provide ample space and thoughtful amenities for a perfect family stay."</li>
-                                </ul>
-                            </div>
-                         </div>
-                         <div className="col-md-12 col-lg-5">
-                            <img src={hotel2} className='w-100 p-3' alt="" />
-                         </div>
-                   </div>
-                    </div> */}
                     {/* restaurant */}
                      <div  data-aos="flip-right" className="restaurant py-3">
                       <h2 className='text-uppercase'>restaurant</h2>
@@ -282,20 +125,19 @@ const About = () => {
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
                                  <h5 className='text-danger text-uppercase'>Hotel</h5>
-                             <p className='letter-space opacity-50'>வைகை உணவகத்திற்கு வரவேற்கிறோம் — உங்கள் சமையல் இடமான மதுரை சாலையில் உள்ள பேகம்பூர்! திண்டுக்கல்லின் இதயத்தில் அரவணைப்பு மற்றும் பாரம்பரியத்துடன் பரிமாறப்படும் தென்னிந்தியா மற்றும் அதற்கு அப்பால் உள்ள உண்மையான சுவைகளை அனுபவிக்கவும்.</p>
                             <h5>About Us Section</h5>
-                            <p className='letter-space opacity-50'>"Located at the heart of Dindigul, Vaigai Restaurant is more than just a dining spot — it's a celebration of flavors. Our chefs bring you time-honored recipes made with fresh, local ingredients. From rich biryanis to delicious dosas, every dish reflects the culinary heritage of Tamil Nadu."</p>
+                            <p className='letter-space opacity-50'>&quot;Vaigai Hotel is one of the most renowned establishments in Dindigul. While the world knows Dindigul for its famous Seraga Samba Biryani, Vaigai Biryani has carved its own legacy, becoming a favorite across the district. We are proud to rank among the  Top 5 bestsellers on Zomato and Swiggy in the Dindigul district. Whether it’s a casual meal or a grand celebration, we specialize in bulk orders and function catering, delivering the authentic taste of Dindigul straight to your plate. <strong>Taste the tradition, only at Vaigai Hotel!</strong>&quot;</p>
                               </div>
                          </div>
                    </div>
                    <div className="row">
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
-                                 <h5 className='text-danger'>Menu Highlights</h5>
+                                 <h5 className='text-danger'>Menu Highlights</h5><br></br>
                                 <ul type="circle" className='opacity-50'>
-                                   <li><strong>Dindigul Special Biryani</strong>: "Aromatic and flavorful, our signature biryani is a must-try."</li>
-                                   <li><strong>Chettinad Chicken Curry</strong>: "Rich, spicy, and full of traditional flavors."</li>
-                                  <li><strong>Classic Dosas</strong>: "Crisp on the outside, soft inside, served with homemade chutneys."</li>
+                                   <li><strong>Dindigul Special Seraga amba Biryani</strong>: &quot;Relish the authentic flavor of Seraga Samba Biryani, a specialty at Vaigai Hotel. Made with aromatic Seeraga Samba rice, tender chicken, or succulent mutton, this biryani is cooked to perfection. Available daily from 11 AM to 11 PM, it’s a feast you don’t want to miss!&quot;</li><br></br>
+                                   <li><strong>Curry Dosa</strong>: &quot;A crispy dosa topped with a flavorful curry that adds a delightful twist to the classic dish. Perfect for those craving a spicy and satisfying meal with a South Indian flair.&quot;</li><br></br>
+                                  <li><strong>Parotta with Chicken Gravy</strong>: &quot;Indulge in soft, flaky parottas paired with rich, aromatic chicken gravy. A timeless combination that’s a favorite among diners looking for comfort food with a punch of flavor..&quot;</li><br></br>
                                 </ul>
                             </div>
                          </div>
@@ -314,21 +156,21 @@ const About = () => {
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
                                  <h5 className='text-danger text-uppercase'>supermarket</h5>
-                             <p className='letter-space opacity-50'>"Welcome to Vaigai Supermarket — your one-stop destination for quality, variety, and value! Located on Madurai Road, Begambur, Dindigul, we bring you the freshest produce, everyday essentials, and special deals under one roof."</p>
+                             <p className='letter-space opacity-50'>&quot;Welcome to Vaigai Supermarket — your one-stop destination for quality, variety, and value! Located on Madurai Road, Begambur, Dindigul, we bring you the freshest produce, everyday essentials, and special deals under one roof.&quot;</p>
                             <h5>About Us Section</h5>
-                            <p className='letter-space opacity-50'>"At Vaigai Supermarket, we are committed to making your shopping experience convenient and enjoyable. Our store offers a wide range of products, from fresh fruits and vegetables to groceries, household items, and personal care products. With top brands and affordable prices, we ensure that every visit meets your needs."</p>
+                            <p className='letter-space opacity-50'>&quot;At Vaigai Supermarket, we are committed to making your shopping experience convenient and enjoyable. Our store offers a wide range of products, from fresh fruits and vegetables to groceries, household items, and personal care products. With top brands and affordable prices, we ensure that every visit meets your needs.onveniently located near schools and colleges, we are a trusted choice for students seeking quality stationery at affordable prices. Whether it’s groceries for your home or supplies for your studies, Vaigai Supermarket has got you covered!&quot;</p>
                               </div>
                          </div>
                    </div>
                    <div className="row">
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
-                                 <h5 className='text-danger'>Product Categories Highlight</h5>
+                                 <h5 className='text-danger'>Product Categories Highlight</h5><br></br>
                                 <ul type="circle" className='opacity-50'>
-                                   <li><strong>Fresh Produce</strong>:"Locally sourced fruits and vegetables — fresh every day."</li>
-                                   <li><strong>Groceries</strong>: "A wide selection of rice, pulses, spices, and more."</li>
-                                  <li><strong>Household Essentials</strong>:  "Everything you need for your home, from cleaning supplies to kitchenware."</li>
-                                  <li><strong>Personal Care</strong>: "Top-quality health and beauty products for the whole family."</li>
+                                   <li><strong>Fresh Produce</strong>:&quot;Locally sourced fruits and vegetables — fresh and full of flavor, delivered every day to ensure the best quality for you.&quot;</li><br></br>
+                                   <li><strong>Groceries</strong>: &quot;Explore a wide selection of rice, pulses, spices, and other pantry essentials to stock up your kitchen with the finest ingredients.&quot;</li> <br></br>
+                                  <li><strong>Household Essentials</strong>:  &quot;From cleaning supplies to kitchenware, we provide everything you need to keep your home running smoothly and efficiently.&quot;</li><br></br>
+                                  <li><strong>Personal Care</strong>: &quot;Discover top-quality health and beauty products tailored for the whole family, ensuring care and comfort in every use.&quot;</li><br></br>
                                 </ul>
                             </div>
                          </div>
@@ -350,12 +192,7 @@ const About = () => {
                                 you to provide you with the best travel experience at an affordable 
                                 price. It does not stop just with this we also provide many other rentals and services.</p>
                                 <h2 className='py-2'>“Customer’s Safety is our Priority”</h2>
-                                <p>Follow us on Instagram, Facebook and reach us out on WhatsApp 
-                                  for further enquires. We serve to provide you with the best 
-                                  experience on the road, wherever you decide to go we have our 
-                                  service available for you all the time. We assure to provide the 
-                                  best travel service for you in Dindigul. Our Travel agency is 
-                                  looking for customers to experience a memorable travel time with us.</p>
+                                <p>Your safety and satisfaction are at the heart of everything we do. Whether you&apos;re traveling near or far, we are committed to providing the best travel experience every step of the way. With our reliable and efficient services, we aim to make your journey in and around Dindigul safe, comfortable, and memorable.</p>
 
                           </div>
                           <div className="col-md-12 col-lg-6">
@@ -370,16 +207,10 @@ const About = () => {
                          </div>
                          <div className="col-md-12 col-lg-6 p-3">
                               <h5 className='text-danger '>Car Rental in Dindigul</h5>
-                              <p>Vaigai Travels provides all auxiliary travel services as 
-                                required along with our 24 Hours back up service through 
-                                the customer service help desk. Ever since its commencement, 
-                                Vaigai Travels had turned out to be one of the most innovative 
-                                Car Rental Service provider in and around Dindigul. Vaigai Travels, 
-                                one of the leading Car rental company in Dindigul, having well behaved, 
-                                trained and customer friendly drivers to make your journey to a beautiful ride. 
-                                Vaigai Travels is ready to serve you round the clock for your 
-                                comfortable journey to enjoy your holiday tour in Dindigul with Economic, 
-                                Premium & Luxury vehicles.</p>
+                              <p>Vaigai Tours and Travels provides comprehensive travel solutions, supported by 24-hour backup service through our dedicated customer care desk. Since its inception, Vaigai Tours and Travels has established itself as a leading and innovative car rental service provider in and around Dindigul.
+We take pride in offering a seamless travel experience with our well-trained, courteous, and customer-friendly drivers, ensuring every journey is safe, smooth, and enjoyable.
+Choose from our wide selection of Economic, Premium, and Luxury vehicles to suit your travel needs. Whether it&apos;s a family vacation or a business trip, we are available 24/7 to make your journey comfortable and memorable. </p>
+<strong>VAIGAI TOURS AND TRAVELS – HERE TO SERVE YOU ANYTIME, ANYWHERE!!</strong>
                          </div>
                      </div>
                 </div>
@@ -402,7 +233,7 @@ const About = () => {
                         <FaFolderOpen className='h3' />
                       </div>
                       <div className="content d-flex">
-                          <span className='h3 ms-3'>5</span>
+                          <span className='h3 ms-3'>10+</span>
                           <p className='ms-3'>States We Cover </p>
                       </div>
 
@@ -414,7 +245,7 @@ const About = () => {
                         <IoIosPeople className='h3' />
                       </div>
                       <div className="content d-flex">
-                          <span className='h3 ms-3'>100</span>
+                          <span className='h3 ms-3'>200+</span>
                           <p className='ms-3'>Cities Visited </p>
                       </div>
 
@@ -426,8 +257,8 @@ const About = () => {
                         <FaTruckFront className='h3' />
                       </div>
                       <div className="content d-flex">
-                          <span className='h3 ms-3'>30</span>
-                          <p className='ms-3'>Owned Vehicles  </p>
+                          <span className='h3 ms-3'>10+</span>
+                          <p className='ms-3'>Rental Vehicles  </p>
                       </div>
 
                       </div>
@@ -438,7 +269,7 @@ const About = () => {
                         <BiMale className='h3' />
                       </div>
                       <div className="content d-flex">
-                          <span className='h3 ms-3'>780</span>
+                          <span className='h3 ms-3'>10000+</span>
                           <p className='ms-3'>Happy Clients  </p>
                       </div>
 

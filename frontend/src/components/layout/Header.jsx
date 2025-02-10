@@ -5,35 +5,31 @@ import {
     Navbar,
     NavbarBrand,
     NavbarContent,
-    NavItem,
-    SideContent,
-    SideItems,
-    DropDown,
+    NavItem
   } from "responsive-navigation";
 // icons
 import { MdOutlineMail } from "react-icons/md"; 
 import { CiFacebook } from "react-icons/ci";
-import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { useState } from "react";
 const Header = () => {
-
    const [active,setActive] = useState("vaigai");
-
+   window.onpopstate  = function(){
+    let urlSplit = window.location.href.split("/")
+     setActive(urlSplit[3] || "vaigai")
+   return false;
+}
   return (
     <div className="sticky-top">
       <div className="header-contact p-2 bg-danger d-flex justify-content-between border-bottom-own align-items-center flex-wrap">
           <div className="left-side">
                <p className="text-white"><span><MdOutlineMail className="text-whiet" /></span><span><a className="text-white" href="mailto:sathamtaj1111@gmail.com"> sathamtaj1111@gmail.com</a></span><br /> <span><FaPhone /> +91 8489946488</span></p>
-    
           </div>
           <div className="right-site"> 
-          <CiFacebook className="px-1 h4 bg-white  ms-1 rounded" /> 
-          <CiTwitter className="px-1 h4 bg-white  ms-1 rounded" />
            <a href="https://www.instagram.com/tn57_vaigai_travels_official/"><FaInstagram className="px-1 h4 bg-white  ms-1 rounded text-dark" /></a>
+           <a href="https://www.instagram.com/tn57_vaigai_travels_official/"><CiFacebook className="px-1 h4 bg-white  ms-1 rounded" /></a>
           </div>
       </div>
-
    <Navbar
   style={{
     backgroundColor: "white",
@@ -56,20 +52,6 @@ const Header = () => {
     <NavItem>
         <Link to={"/one-day-package"} onClick={()=>setActive("One Day Package")} style={{color:(active == "One Day Package"?"red":"black")}}>Package</Link>
       </NavItem>
-    {/* <DropDown style={{ width: "170px" }} label="Services">
-      <NavItem>
-        <Link to={"/one-day-package"} onClick={()=>setActive("One Day Package")} style={{color:(active == "One Day Package"?"red":"black")}}>One Day Package</Link>
-      </NavItem>
-      <NavItem>
-        <Link to={"/tour-places"} onClick={()=>setActive("Tour Places")} style={{color:(active == "Tour Places"?"red":"black")}}>Tour Places</Link>
-      </NavItem>
-      <NavItem>
-      <Link to={"/releax"} onClick={()=>setActive("releax")} style={{color:(active == "Tour Places"?"red":"black")}}>Releax</Link>
-      </NavItem>
-    </DropDown> */}
-    {/* <NavItem>
-      <Link to={"/payment"} onClick={()=>setActive("Payment")} style={{color:(active == "Payment"?"red":"black")}}>Payment</Link>
-    </NavItem> */}
     <NavItem>
       <Link to={"/book-you-cab"} onClick={()=>setActive("book-you-cab")} style={{color:(active == "book-you-cab"?"red":"black")}}>Book Your Cab</Link>
     </NavItem>
@@ -77,10 +59,7 @@ const Header = () => {
       <Link to={"/contact"} onClick={()=>setActive("contact")} style={{color:(active == "contact"?"red":"black")}}>Contact</Link>
     </NavItem>
   </NavbarContent>
-  {/* <SideContent>
-    <SideItems><Link to={"/register"}>Sign In</Link></SideItems>
-    <SideItems><Link to={"/package-table"}>Sign Up</Link></SideItems>
-  </SideContent> */}
+
 </Navbar>
     </div>
   )

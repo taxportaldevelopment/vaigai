@@ -1,10 +1,9 @@
 import {Link,useNavigate} from "react-router-dom"
-// images
-import img from "../assets/contact-us.png"
+
 // icons
-import { FaTelegramPlane } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa6";
-import { MdOutlineMail } from "react-icons/md";
+import { MdMyLocation } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io5";
 // import { CiFacebook } from "react-icons/ci";
 // import { CiTwitter } from "react-icons/ci";
 // import { FaGooglePlusG } from "react-icons/fa6";
@@ -77,33 +76,35 @@ const Contact = () => {
                    <div className="col-md-12 col-lg-4 mt-3">
                         <div className="contact-icons-box">
                          <div className="icons p-5 d-flex justify-content-center align-items-center">
-                               <FaTelegramPlane className="h1 text-danger" />
+                               <MdMyLocation className="h1 text-danger" />
                          </div>
                           <div className="content p-3">
                            <h4 className="text-center">Office Location</h4>
-                           <p className="text-center">Vaigai Relax, madurai road, Begambur, dindigul 624002</p>
+                           <p className="text-center">Vaigai Relax, Madurai road, Begambur, Dindigul 624002</p>
                           </div>
                         </div>
                    </div>
                    <div className="col-md-12 col-lg-4 mt-3">
                         <div className="contact-icons-box">
                          <div className="icons p-5 d-flex justify-content-center align-items-center">
-                               < MdOutlineMail className="h1 text-danger" />
+                               <IoLogoInstagram className="h1 text-primary" />
                          </div>
                           <div className="content p-3">
-                           <h4 className="text-center">Email Address</h4>
-                           <p className="text-center"><a href="mailto:sathamtaj1111@gmail.com">sathamtaj1111@gmail.com</a></p>
+                           <h4 className="text-center">Instagram</h4>
+                           <p className="text-center"><a target="_blank" className="text-dark" href="https://www.instagram.com/tn57_vaigai_travels_official?igsh=MWUyY3JvM2VpdWp6aw==">Visti Instagram Page</a> <br></br> <a target="_blank" className="text-dark" href="https://www.instagram.com/tn57_vaigai_travels_official?igsh=MWUyY3JvM2VpdWp6aw==">Visti Facebook Page</a></p>
+                         
                           </div>
                         </div>
                    </div>
                    <div className="col-md-12 col-lg-4 mt-3">
                         <div className="contact-icons-box">
                          <div className="icons p-5 d-flex justify-content-center align-items-center">
-                            <FaPhone className="h1 text-danger" />
+                            <FaWhatsapp className="h1 text-success" />
                          </div>
                           <div className="content p-3">
-                           <h4 className="text-center">Hotline</h4>
-                           <p className="text-center">+91 8489946488</p>     
+                           <h4 className="text-center">Whatsapp</h4>
+                           <p className="text-center">+91 8489946488<br></br>+91 9488244111</p>     
+                           
                           </div>
                         </div>
                    </div>
@@ -160,14 +161,14 @@ const Contact = () => {
                                     </div>
                                     <div className="col-md-12 col-lg-6 p-3">
                                          <select name="contry" required className="form-control">
-                                             <option value="">--please choose an option</option>
-                                             <option value="south india">south india</option>
-                                             <option value="north india">north india</option>
+                                             <option value="">--Please choose an option</option>
+                                             {/* <option value="south india">south india</option>
+                                             <option value="north india">north india</option> */}
                                              <option value="Weekend Tour">Weekend Tour</option>
-                                             <option value="Student Tour">Student Tour</option>
                                              <option value="Corporate Packages">Corporate Packages</option>
                                              <option value="Cultural Tour">Cultural Tour</option>
                                              <option value="Pilgrimages Tour">Pilgrimages Tour</option>
+                                             <option value="Others">Others</option>
                                          </select>
                                     </div>
                               </div>

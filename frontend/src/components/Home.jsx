@@ -1,8 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import {Link} from "react-router-dom";
 // banner slider
-import brandBanner from "../assets/brand-banner.jpeg";
+
 import brandBanner1 from "../assets/vcc.png";
 import brandBanner2 from "../assets/vcc1.png";
 import brandBanner3 from "../assets/vcc2.png";
@@ -131,7 +130,7 @@ const Home = () => {
       </div>
 
        {/* typing */}
-       <div className="d-flex justify-content-center align-items-center  my-3 h1 text-danger">
+       <div className="d-flex justify-content-center align-items-center special-font my-3 h1 text-danger">
          <span className="mx-2">VAIGAI</span>
        <Typewriter
           options={{
@@ -157,48 +156,24 @@ const Home = () => {
                    <div className="col-md-12 col-lg-6">
                          <div className="row d-flex justify-content-evenly">
                               <div className="col-md-12 why-choose-at-us col-lg-4 border p-3 shadow p-3 mb-5 bg-white rounded">
-                                    <h6 className="text-danger">Best Travel Agent</h6>
-                                    <p>Our commitment to excellence revolves around you, our valued customer. 
-                                      From the moment you plan your journey to the safe arrival at your destination, 
-                                      our customer-centric approach ensures your satisfaction is our top priority.</p>
+                                    <h6 className="text-danger">Best Tour & Travels</h6>
+                                    <p>At Vaigai Tours and Travels, we prioritize your satisfaction with safe, reliable, and customer-focused service. Experience excellence in every journey with Vaigai!.</p>
                               </div>
                               <div className="col-md-12 col-lg-4 why-choose-at-us border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Best Price</h6>
-                                    <p>Unlock unbeatable value with vaigai Travels – your gateway 
-                                      to the best prices in travel. Our commitment to affordability 
-                                      ensures that you get exceptional service without compromising your budget.</p>
+                                    <p>Unlock the best travel deals with Vaigai Tours and Travels. Our unbeatable prices ensure exceptional service that fits your budget perfectly, without any compromise on quality or comfort.!</p>
                               </div>
                          </div>
                          {/* second */}
                          <div className="row d-flex justify-content-evenly">
                               <div className="col-md-12 why-choose-at-us col-lg-4 border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Trust &Safety</h6>
-                                    <p>Unlock unbeatable value with vaigai Travels – your gateway to the best prices in travel.
-                                       Our commitment to affordability ensures that you get exceptional service without 
-                                       compromising your budget.</p>
+                                    <p>At Vaigai Travels, your safety and satisfaction are our top priorities. Enjoy unbeatable value and exceptional service, all while traveling with confidence and peace of mind. Affordable journeys without compromise—your trust is our promise!</p>
                               </div>
-                              <div className="col-md-12 col-lg-4 why-choose-at-us border p-3 shadow p-3 mb-5 bg-white rounded">
-                                    <h6 className="text-danger">Amazing Tour</h6>
-                                    <p>Embark on an unforgettable journey with vaigai Travels, 
-                                      where every tour is crafted to be truly amazing. Discover 
-                                      extraordinary destinations and create lasting memories with 
-                                      our exceptional travel experiences.</p>
-                              </div>
-                         </div>
-                         {/* three */}
-                         <div className="row d-flex justify-content-evenly">
-                              <div className="col-md-12 why-choose-at-us col-lg-4 border p-3 shadow p-3 mb-5 bg-white rounded">
+                              {<div className="col-md-12 col-lg-4 why-choose-at-us border p-3 shadow p-3 mb-5 bg-white rounded">
                                     <h6 className="text-danger">Ticket Booking</h6>
-                                    <p>Simplify your travel plans with vaigai Travels. Our hassle-free 
-                                      ticket booking services ensure a seamless and efficient process, 
-                                      providing you with the convenience you deserve for your journey ahead.</p>
-                              </div>
-                              <div className="col-md-12 col-lg-4 why-choose-at-us border p-3 shadow p-3 mb-5 bg-white rounded">
-                                    <h6 className="text-danger">Hotel Booking</h6>
-                                    <p>Experience comfort from check-in to check-out with vaigai Travels. 
-                                      Our hotel booking services offer a seamless and tailored approach, 
-                                      ensuring your stay is as enjoyable as the destination itself.</p>
-                              </div>
+                                    <p>We provide railway and bus ticket booking services, ensuring a hassle-free experience for your travel needs. Specializing in Tatkal bookings, we strive to secure your tickets quickly and efficiently. Travel made simple with Vaigai Tours and Travels!.</p>
+                              </div>}
                          </div>
                    </div>
               </div>  
@@ -250,69 +225,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* gallery */}
-      {/* <div data-aos="fade-down-left" className="container-fluid gallery-section p-3">
-        <h3 className="text-center my-3 text-white">GALLERY</h3>
-        <div className="container my-4 py-4">
-          <Carousel
-            responsive={responsive}
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={3000}
-            keyBoardControl={true}
-            transitionDuration={500}
-            swipeable={false}
-            draggable={false}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
-          >
-            <div className="">
-              <img src={img1} className="w-75 rounded" alt="Image 1" />{" "}
-              <h5 className="mt-2 text-uppercase text-white">
-                athirapalli-falls
-              </h5>
-            </div>
-            <div className="">
-              <img src={img2} className="w-75 rounded" alt="Image 2" />
-              <h5 className="mt-2 text-uppercase text-white">
-                hogenakal falls
-              </h5>
-            </div>
-            <div className="">
-              <img src={img3} className="w-75 rounded" alt="Image 3" />
-              <h5 className="mt-2 text-uppercase text-white">
-                kodaikanal falls
-              </h5>
-            </div>
-            <div className="">
-              <img src={img4} className="w-75 rounded" alt="Image 4" />
-              <h5 className="mt-2 text-uppercase text-white">kutralam falls</h5>
-            </div>
-            <div className="">
-              <img src={img5} className="w-75 rounded" alt="Image 1" />
-              <h5 className="mt-2 text-uppercase text-white">munnar falls</h5>
-            </div>
-            <div className="">
-              <img src={img6} className="w-75 rounded" alt="Image 2" />
-              <h5 className="mt-2 text-uppercase text-white">
-                Ooty-pykara-falls
-              </h5>
-            </div>
-            <div className="">
-              <img src={img7} className="w-75 rounded" alt="Image 3" />
-              <h5 className="mt-2 text-uppercase text-white">
-                Thirparapu-falls
-              </h5>
-            </div>
-            <div className="">
-              <img src={img8} className="w-75 rounded" alt="Image 4" />
-              <h5 className="mt-2 text-uppercase text-white">
-                thirumoorthy-falls
-              </h5>
-            </div>
-          </Carousel>
-        </div>
-      </div> */}
+    
       {/* OUR CUSTOMERS FAVOURITE DESTINATIONS */}
       <div data-aos="flip-left" className="bg-color my- py-4 ">
         <h3 className="text-center my-3 text-danger text-uppercase roboto fw-bold">dindigul nearby places</h3>
@@ -451,28 +364,6 @@ const Home = () => {
        {/* </div> */}
 
     </div>
-
-        {/* <marquee  scrollamount="20" direction="" >
-            <div className="d-flex justify-content-evenly">
-
-             <div  className="me-4 shadow">
-                 <img src={brandBanner} height={360} alt="" />
-             </div>
-             <div className="me-4 shadow">
-                 <img src={brandBanner1} height={360} alt="" />
-             </div>
-             <div className="me-4 shadow">
-                 <img src={brandBanner2} height={360} alt="" />
-             </div>
-             <div className="me-4 shadow">
-                 <img src={brandBanner3} height={360} alt="" />
-             </div>
-             <div className="me-4 shadow">
-                 <img src={brandBanner4} height={360} alt="" />
-             </div>
-            </div>
-        </marquee> */}
-
       </div>
 
       </div>

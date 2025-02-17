@@ -398,7 +398,7 @@ export const HolidayTour = ()=>{
                                </div>
                            </div>
                         </div>
-                        <h6 className="text-uppercase py-3">Kolli- Hills</h6>
+                        <h6 className="text-uppercase py-3">Ooty</h6>
          </div>
    </div>
         </div>

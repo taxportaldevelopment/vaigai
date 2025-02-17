@@ -48,8 +48,6 @@ const Contact = () => {
               setResult(data.message);
             }
           };
-          
-
   return (
     <div className='contact-section-us container-fluid'> 
      

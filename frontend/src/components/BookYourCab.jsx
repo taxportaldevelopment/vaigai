@@ -70,9 +70,9 @@ const BookYourCab = () => {
                               <h5 className="text- ">SWIFT DEZIRE ( or ) SWIFT : <PiSeatFill /> 4+1 SEAT</h5>
                                 <div className="d-flex justify-content-between align-items-center">
                                <ul type="none">
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY: ₹ 4500 </strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 7000</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 9000</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 1 : ₹4500 </strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 2 : ₹7000</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 3 : ₹9000</strong> </li>
                                </ul>
                                   <div>
                                       <div className="d-flex">
@@ -94,9 +94,9 @@ const BookYourCab = () => {
                                <div>
                                <div className="d-flex justify-content-between align-items-center">
                                <ul type="none">
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 5500</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 9000</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 12000</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 1 : ₹5500</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 2 : ₹9000</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 3 : ₹12000</strong> </li>
                                </ul>
                                      <div>
                                       <div className="d-flex">
@@ -127,9 +127,9 @@ const BookYourCab = () => {
                               <h5 className="">INNOVA <PiSeatFill /> 7+1 SEAT</h5>
                               <div className="d-flex justify-content-between align-items-center">
                                <ul type="none">
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 6000 </strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 10000</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 13500 </strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 1 : ₹6000</strong></li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 2 : ₹10000</strong></li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 3 : ₹13500</strong></li>
                                </ul>
                                <div>
                                       <div className="d-flex">
@@ -160,9 +160,9 @@ const BookYourCab = () => {
                               <h5 className="text- ">ERTIGA : <PiSeatFill /> 6+1 seat</h5>
                                <div className="d-flex justify-content-between align-items-center">
                                <ul type="none">
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY: ₹ 5500 </strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 9000</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 12500</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 1 : ₹5500 </strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 2 : ₹9000</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 3 : ₹12500</strong> </li>
                                </ul>
                                <div>
                                       <div className="d-flex justify-content-between">
@@ -190,9 +190,9 @@ const BookYourCab = () => {
                               <h5 className="">TEMPO :<PiSeatFill /> 14+1 SEAT</h5>
                               <div className="d-flex justify-content-between align-items-center">
                               <ul type="none">
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 8500</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 12500</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 16500</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 1 : ₹8500</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 2 : ₹12500</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 3 : ₹16500</strong> </li>
                                </ul>
                                <div>
                                       <div className="d-flex justify-content-between align-items-center">
@@ -242,9 +242,9 @@ const BookYourCab = () => {
                               <h5 className="">COACH  <PiSeatFill /> 21+1 SEAT</h5>
                               <div className="d-flex justify-content-between align-items-center">
                               <ul type="none">
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 9000 </strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 15000</strong> </li>
-                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY :₹ 21000 </strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 1 : ₹9000 </strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 2 : ₹15000</strong> </li>
+                                  <li><IoCarSport className="h4 text-danger my-2"/> <strong>DAY 3 : ₹21000 </strong> </li>
                                </ul>
                                <div>
                                       <div className="d-flex justify-content-between align-items-center">
@@ -302,7 +302,7 @@ const BookYourCab = () => {
                  {/* INGULDING */}
                  <p className="card p-3 mt-3 bg-light text-primary h5 ">
                       <marquee behavior="alternate" direction="">
-                      INGULDING : TOLLGATE & PARKING & DRIVER BATTA &  DIESEL CHARGES
+                      INCLUDING : TOLLGATE & PARKING & DRIVER BATTA &  DIESEL CHARGES
                       </marquee>
                  </p>
           </div>
@@ -310,7 +310,7 @@ const BookYourCab = () => {
           <div className="airport-pickup-drop">
                       <div className="title py-3 d-flex justify-content-center align-items-center">
                           <IoCarSportSharp  className="h1 mx-2"/>
-                      <h1 className="text-danger roboto fw-bold">AIRPORT PICKUP AND DROP</h1>
+                      <h1 className="text-danger special-font ">AIRPORT PICKUP AND DROP</h1>
                       </div>
                  <div className="container">
                       <div className="row">
@@ -495,7 +495,7 @@ const BookYourCab = () => {
       </div>
       <div data-aos="zoom-out-up" className="image">
         <div className="container-fluid">
-          <img src={images1} className="w-100 book-your-cab-footer-img" alt="" />
+            <marquee behavior="" direction=""> <img src={images1} className="w-100 book-your-cab-footer-img" alt="" /></marquee>
 
         </div>
       </div>

@@ -135,7 +135,7 @@ const About = () => {
                               <div>
                                  <h5 className='text-danger'>Menu Highlights</h5><br></br>
                                 <ul type="circle" className='opacity-50'>
-                                   <li><strong>Dindigul Special Seraga amba Biryani</strong>: &quot;Relish the authentic flavor of Seraga Samba Biryani, a specialty at Vaigai Hotel. Made with aromatic Seeraga Samba rice, tender chicken, or succulent mutton, this biryani is cooked to perfection. Available daily from 11 AM to 11 PM, it’s a feast you don’t want to miss!&quot;</li><br></br>
+                                   <li><strong>Dindigul Special Seraga Samba Biryani</strong>: &quot;Relish the authentic flavor of Seraga Samba Biryani, a specialty at Vaigai Hotel. Made with aromatic Seeraga Samba rice, tender chicken, or succulent mutton, this biryani is cooked to perfection. Available daily from 11 AM to 11 PM, it’s a feast you don’t want to miss!&quot;</li><br></br>
                                    <li><strong>Curry Dosa</strong>: &quot;A crispy dosa topped with a flavorful curry that adds a delightful twist to the classic dish. Perfect for those craving a spicy and satisfying meal with a South Indian flair.&quot;</li><br></br>
                                   <li><strong>Parotta with Chicken Gravy</strong>: &quot;Indulge in soft, flaky parottas paired with rich, aromatic chicken gravy. A timeless combination that’s a favorite among diners looking for comfort food with a punch of flavor..&quot;</li><br></br>
                                 </ul>

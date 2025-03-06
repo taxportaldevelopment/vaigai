@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import ReactGA from "react-ga4";
 // banner slider
 
 import brandBanner1 from "../assets/vcc.png";
@@ -25,6 +26,7 @@ import Typewriter from 'typewriter-effect';
 import { IoCarSport } from "react-icons/io5";
 import { useEffect, useState } from "react";
 const Home = () => {
+
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -44,7 +46,9 @@ const Home = () => {
   };
 
    useEffect(()=>{
-    function getRefresh(){
+    ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
+    ReactGA.send({ hitType: "pageview", page:window.location.pathname, title: "Home.jsx" });
+      function getRefresh(){
       window.scrollTo(0, 0);
   }
   getRefresh()

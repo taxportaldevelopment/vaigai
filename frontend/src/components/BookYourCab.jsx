@@ -1,10 +1,11 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import { Link ,useNavigate} from "react-router-dom";
 import DatePicker from "react-multi-date-picker";
 import images from "../assets/qr-code-1.jpeg";
 import images1 from "../assets/footertop1.png"
 import brandPhoto from "../assets/qr-code-2.jpeg";
 import { RiFlightLandFill } from "react-icons/ri";
+import ReactGA from "react-ga4";
 // images
 import seats from "../assets/book-seats.png";
 
@@ -13,6 +14,12 @@ import { IoCarSport } from "react-icons/io5";
 import { PiSeatFill } from "react-icons/pi";
 import { IoCarSportSharp } from "react-icons/io5";
 const BookYourCab = () => {
+
+   useEffect(()=>{
+     ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
+     ReactGA.send({ hitType: "pageview", page:window.location.pathname, title: "BookYourCab.jsx" });
+   },[]);
+
   const navigate = useNavigate();
   const [result, setResult] = useState("");
 
@@ -20,9 +27,13 @@ const BookYourCab = () => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
+    formData.append("access_key", import.meta.env.VITE_EMAIL_KEY);
 
-    formData.append("access_key", "fab192d6-0ab0-477f-96b5-efbd44dd31c4");
-
+    ReactGA.event({
+      category: "Book Cab",
+      action: "Book Cab Form Submitted", 
+      label: `Address : ${event.target.Address.value}`, // optional
+    });
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
@@ -63,7 +74,7 @@ const BookYourCab = () => {
        {/* package start */}
           <div className="package-section container">
                  <h2 className="text-center py-4 roboto">OUR PACKAGES</h2>
-                 <p className="text-center text-warning py-1">Dindigul to kodaikanal </p>
+                 <h1 className="text-center text-danger py-1 special-font">Dindigul To kodaikanal </h1>
                  <div className="row">
                      <div className="col-md-12 col-lg-4">
                            <div className="border p-2 rounded shadow">
@@ -323,7 +334,7 @@ const BookYourCab = () => {
                                                 <li><RiFlightLandFill /> <strong>Ertiga : ₹ 3100</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Innova : ₹ 3500</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Tavera : ₹ 3100</strong></li>
-                                                <li><RiFlightLandFill /> <strong>Tempo Travels : ₹ 3500</strong></li>
+                                                <li><RiFlightLandFill /> <strong>Tempo Travels : ₹ 7000</strong></li>
                                              </ul>
                                         </div>
                                   </div>
@@ -333,7 +344,7 @@ const BookYourCab = () => {
                                        <p className="fw-bold text-center text-danger">Dindigul To Tricy Airport</p>
                                         <div className="p-1">
                                              <ul>
-                                                <li> <RiFlightLandFill /> <strong>Swift (OR) Swift Dzire : ₹ 2600</strong>  </li>
+                                                <li> <RiFlightLandFill /> <strong>Swift (OR) Swift Dzire : ₹ 3600</strong>  </li>
                                                 <li><RiFlightLandFill /> <strong>Ertiga : ₹ 4000</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Innova : ₹ 4900</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Tavera : ₹ 4000</strong></li>
@@ -342,6 +353,7 @@ const BookYourCab = () => {
                                         </div>
                                   </div>
                              </div>
+
                              <div className="col-md-12 col-lg-4 p-2">
                                   <div className="pickup-and-drop border p-2 rounded shadow">
                                        <p className="fw-bold text-center text-danger">Dindigul To coimbatore Airport</p>
@@ -350,8 +362,7 @@ const BookYourCab = () => {
                                                 <li> <RiFlightLandFill /> <strong>Swift (OR) Swift Dzire : ₹ 4600</strong>  </li>
                                                 <li><RiFlightLandFill /> <strong>Ertiga : ₹ 5000</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Innova : ₹ 5600</strong></li>
-                                                <li><RiFlightLandFill /> <strong>Tavera : ₹ 5000</strong></li>
-                                                <li><RiFlightLandFill /> <strong>Tempo Travels : ₹ 10,000</strong></li>
+                                                <li><RiFlightLandFill /> <strong>Tavera : ₹ 5000</strong></li><br />
                                              </ul>
                                         </div>
                                   </div>
@@ -365,7 +376,7 @@ const BookYourCab = () => {
                                                 <li><RiFlightLandFill /> <strong>Ertiga : ₹ 13,800</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Innova : ₹ 15,000</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Tavera : ₹ 14,000</strong></li>
-                                                <li><RiFlightLandFill /> <strong>Tempo Travels : ₹ 24,000</strong></li>
+                                                {/* <li><RiFlightLandFill /> <strong>Tempo Travels : ₹ 24,000</strong></li> */}
                                              </ul>
                                         </div>
                                   </div>
@@ -379,7 +390,6 @@ const BookYourCab = () => {
                                                 <li><RiFlightLandFill /> <strong>Ertiga : ₹ 9500</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Innova : ₹ 10,500</strong></li>
                                                 <li><RiFlightLandFill /> <strong>Tavera : ₹ 9500</strong></li>
-                                                <li><RiFlightLandFill /> <strong>Tempo Travels : ₹ 16,500</strong></li>
                                              </ul>
                                         </div>
                                   </div>
@@ -494,9 +504,8 @@ const BookYourCab = () => {
         </div>
       </div>
       <div data-aos="zoom-out-up" className="image">
-        <div className="container-fluid">
+        <div className="container-fluid">aaaaa
             <marquee behavior="" direction=""> <img src={images1} className="w-100 book-your-cab-footer-img" alt="" /></marquee>
-
         </div>
       </div>
     </div>

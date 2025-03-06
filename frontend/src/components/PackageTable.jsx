@@ -4,7 +4,8 @@ import DatePicker from "react-multi-date-picker";
 import { HiOutlineDownload } from "react-icons/hi";
 import { BsEmojiFrown } from "react-icons/bs";
 import jsPDF from 'jspdf'
-import 'jspdf-autotable'
+import 'jspdf-autotable';
+import ReactGA from "react-ga4";
 // image
 import search from "../assets/File-searching-amico.png"
 const PackageTable = () => {
@@ -12,7 +13,9 @@ const PackageTable = () => {
     const [viewAll,setViewAll] = useState(false)
     const [from,setFrom] = useState();
     const [to,setTo] = useState();
-    useEffect(()=>{
+    useEffect(()=>{     
+      ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
+      ReactGA.send({ hitType: "pageview", page:window.location.pathname, title: "PackageTable.jsx" });
         const getAllBooking = async()=>{
             const {data} = await axios.get(`${import.meta.env.VITE_SERVER_APP_URL}/api/v1/getallusers`);
             setBookingList(data?.user)

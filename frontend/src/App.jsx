@@ -1,21 +1,20 @@
-import {Route, Routes} from "react-router-dom"
-import './App.css'
-import Header from "./components/layout/Header"
-import Home from "./components/Home"
-import About from "./components/About"
-import OneDayPackage from "./components/OneDayPackage"
-import Footer from "./components/layout/Footer"
-import Contact from "./components/Contact"
+import {Route, Routes} from "react-router-dom";
+import './App.css';
+import Header from "./components/layout/Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import OneDayPackage from "./components/OneDayPackage";
+import Footer from "./components/layout/Footer";
+import Contact from "./components/Contact";
 
 // icons
 import { IoPhonePortrait } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
-import BookYourCab from "./components/BookYourCab"
-import Register from "./components/Register"
-import PackageTable from "./components/PackageTable"
+import BookYourCab from "./components/BookYourCab"; 
+import Register from "./components/Register";
+import PackageTable from "./components/PackageTable";
 function App() {
-
 
   return (
      <div>

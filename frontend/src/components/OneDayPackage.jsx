@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import { HolidayTour, Honeymoon, OneDayPackages, Pilgrimage } from "./propsSection/OneDayProps";
 import Loading from "./layout/Loading";
+import ReactGA from "react-ga4";
 const OneDayPackage = () => {
     const [active,setActive] = useState("ONE DAY TOUR PACKAGES")
     const [pages,setPages] = useState(<OneDayPackages/>);
@@ -46,6 +47,8 @@ const OneDayPackage = () => {
         setActive(event)
     }
       useEffect(()=>{
+          ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
+          ReactGA.send({ hitType: "pageview", page:window.location.pathname, title: "OneDayPackage.jsx" });
           function getRefresh(){
                window.scrollTo(0, 0);
            }

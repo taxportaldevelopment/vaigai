@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form';
 import axios from "axios";
 // import jsPDF from 'jspdf'
 // import 'jspdf-autotable'
+import ReactGA from "react-ga4";
 const Register = () => {
      
      const [statusActive,setStatusActive] = useState(true)
@@ -13,7 +14,8 @@ const Register = () => {
     //  const [travelFilter,setTravelFilter] = useState();
       
     useEffect(()=>{
-
+      ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
+      ReactGA.send({ hitType: "pageview", page:window.location.pathname, title: "Register.jsx" });
        if(statusActive){
          async function getalluser(){
               const {data} = await axios.get(`${import.meta.env.VITE_SERVER_APP_URL}/api/v1/getallusers`);

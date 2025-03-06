@@ -44,7 +44,7 @@ const Header = () => {
   </NavbarBrand>
   <NavbarContent>
     <NavItem>
-      <Link to={"/"} onClick={()=>setActive("vaigai")} style={{color:(active == "vaigai"?"red":"black")}} >Home</Link>
+      <Link to={"/"} onClick={()=>setActive("vaigai")} className="no-underline" style={{color:(active == "vaigai"?"red":"black")}} >Home</Link>
     </NavItem>
     <NavItem>
       <Link to={"/about"} onClick={()=>setActive("about")} style={{color:(active == "about"?"red":"black")}}>About</Link>

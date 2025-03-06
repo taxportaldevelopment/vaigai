@@ -1,18 +1,15 @@
 import {Link,useNavigate} from "react-router-dom"
-
 // icons
 import { MdMyLocation } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
-// import { CiFacebook } from "react-icons/ci";
-// import { CiTwitter } from "react-icons/ci";
-// import { FaGooglePlusG } from "react-icons/fa6";
-// import { FaPinterestP } from "react-icons/fa6";
-// import { TfiYoutube } from "react-icons/tfi";
 import { useEffect, useState } from "react";
+import ReactGA from "react-ga4";
 const Contact = () => {
       const navigate = useNavigate();
       useEffect(()=>{
+            ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
+            ReactGA.send({ hitType: "pageview", page:window.location.pathname, title: "Contact.jsx" });
             function getRefresh(){
                   window.scrollTo(0, 0);
               }
@@ -117,20 +114,11 @@ const Contact = () => {
                               <p className="py-3">Man braid hell of edison bulb four brunch subway tile authentic, 
                               chillwave put a bird on church-key ramps heirloom. Set perspiciatis unde 
                               omnis estenatus voluptatem aperiae.</p>
-
-                              {/* <div className="social-media">
-                                   <CiFacebook className="h3 p-1 bg-danger text-white ms-2" />
-                                   <CiTwitter className="h3 p-1 bg-danger text-white ms-2" />
-                                   <FaGooglePlusG className="h3 p-1 bg-danger text-white ms-2" />
-                                   <FaPinterestP className="h3 p-1 bg-danger text-white ms-2" />
-                                   <TfiYoutube className="h3 p-1 bg-danger text-white ms-2" />
-                              </div> */}
                         </div>
                         <div className="col-md-12 col-lg-6 p-3 border rounded">
                                {result && result?<h5 className="alert alert-success text-center">{result}</h5>:""}
                          <form onSubmit={onSubmit} >
                               <div className="row">
-                              {/* <input type="hidden" name="access_key" value="f0662e3b-9485-4ab0-bb56-3feaa3ac8da9"/> */}
                                     <div className="col-md-12 col-lg-6 p-3">
                                           <input type="text"
                                              placeholder="Your Name"
@@ -160,8 +148,6 @@ const Contact = () => {
                                     <div className="col-md-12 col-lg-6 p-3">
                                          <select name="contry" required className="form-control">
                                              <option value="">--Please choose an option</option>
-                                             {/* <option value="south india">south india</option>
-                                             <option value="north india">north india</option> */}
                                              <option value="Weekend Tour">Weekend Tour</option>
                                              <option value="Corporate Packages">Corporate Packages</option>
                                              <option value="Cultural Tour">Cultural Tour</option>
@@ -182,21 +168,8 @@ const Contact = () => {
             </div> 
             {/* google map */}
             <div className="container-fluid google-map">
-                  {/* <div className="contact-fixed rounded container d-flex justify-content-between align-items-center flex-wrap p-3">
-                   <div className="left-side d-flex flex-wrap">
-                  <div className="book-with">
-                         <img src={img} height={80} alt="" />
-                  </div>
-                  <div className="content ms-2">
-                         <p>Travel Made Easy</p>
-                         <h5>Book with Prompt Travels for a seamless experience</h5>
-                  </div>    
-                  </div>
-                   <button className="btn btn-primary">Book Now</button>
-
-                   </div> */}
                   <div className="map-map p-4">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.2903348150335!2d77.96320087140352!3d10.354002991674527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00ab5cd3caf8f9%3A0xa92ac7765b4d32fb!2sVAIGAI%20TOURS%20AND%20TRAVELS!5e1!3m2!1sen!2sin!4v1732604705252!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowfullscreen="true" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.2903348150335!2d77.96320087140352!3d10.354002991674527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00ab5cd3caf8f9%3A0xa92ac7765b4d32fb!2sVAIGAI%20TOURS%20AND%20TRAVELS!5e1!3m2!1sen!2sin!4v1732604705252!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowfullscreen="true" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                   </div> 
             </div>
        </div>

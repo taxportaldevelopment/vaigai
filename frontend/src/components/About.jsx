@@ -2,6 +2,7 @@ import {useEffect} from 'react'
 import about1 from "../assets/about/aboutus.png"
 import about2 from "../assets/about/mahindra_vento.png"
 import about3 from "../assets/about/cars.png"
+import ReactGA from "react-ga4";
 //icons
 import { FaFolderOpen } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
@@ -23,7 +24,8 @@ const About = () => {
 
 
     useEffect(()=>{
-
+      ReactGA.initialize(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
+      ReactGA.send({ hitType: "pageview", page:window.location.pathname, title: "About.jsx" });
         function getRefresh(){
           window.scrollTo(0, 0);
       }
@@ -89,7 +91,6 @@ const About = () => {
                          <div className="col-md-12 col-lg-7 d-flex justify-content-center align-items-center p-2">
                               <div>
                                  <h5 className='text-danger text-uppercase'>construction</h5>
-                             {/* <p className='letter-space opacity-50'>"வைகைக்கு வரவேற்கிறோம் - எதிர்காலத்தை உருவாக்குதல், ஒரு நேரத்தில் ஒரு செங்கல். கருத்து முதல் நிறைவு வரை, உங்கள் தேவைகளுக்கு ஏற்ப புதுமையான, உயர்தர கட்டுமான தீர்வுகளை நாங்கள் வழங்குகிறோம்"</p> */}
                             <h5>About Us Section</h5>
                             <p className='letter-space opacity-50'>&quot;At <strong>vaigai construction </strong>We build multi-family and affordable housing communities, industrial facilities, public and private healthcare facilities, fitness centers and office buildings. We improve the supply chain management process, increase operational efficiencies and build environments that foster creativity. Our commitment to sustainable construction helps improve the communities in which we build. The structures we create provide our clients with more than just buildings – we deliver environments that help them achieve their goals. <strong>We are built on a foundation of quality workmanship and responsive service.</strong>&quot;</p>
                               </div>
